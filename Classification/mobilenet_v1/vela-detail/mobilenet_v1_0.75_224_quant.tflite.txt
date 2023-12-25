@@ -1,0 +1,41 @@
+
+Network summary for mobilenet_v1_0.75_224_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                363.95 KiB
+Total DRAM used                               2483.25 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 60 (100.0%)
+
+Average SRAM bandwidth                           4.19 GB/s
+Input   SRAM bandwidth                           8.72 MB/batch
+Weight  SRAM bandwidth                           5.40 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          14.20 MB/batch
+Total   SRAM bandwidth            per input     14.20 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.97 GB/s
+Input   DRAM bandwidth                           0.69 MB/batch
+Weight  DRAM bandwidth                           1.98 MB/batch
+Output  DRAM bandwidth                           4.00 MB/batch
+Total   DRAM bandwidth                           6.69 MB/batch
+Total   DRAM bandwidth            per input      6.69 MB/inference (batch size 1)
+
+Neural network macs                         328150354 MACs/batch
+Network Tops/s                                   0.19 Tops/s
+
+NPU cycles                                    2699079 cycles/batch
+SRAM Access cycles                             779425 cycles/batch
+DRAM Access cycles                            1238710 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                  3392392 cycles/batch
+
+Batch Inference time                 3.39 ms,  294.78 inferences/s (batch size 1)
+

@@ -1,0 +1,809 @@
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for PADV2 'PadV2'. Placing on CPU instead
+ - Scalar Input tensors are only valid for op type: ADD, EXPAND_DIMS, MAXIMUM, MEAN, MINIMUM, MUL, QUANTIZE, SPLIT, SPLIT_V, SUB
+   Op has scalar input tensor(s): PadV2/constant_values
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_7'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape1' has shape: [1, 8, 12, 56, 56]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape1' has shape: [1, 8, 12, 56, 56], Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose' has shape: [1, 12, 8, 56, 56]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape_11'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose' has shape: [1, 12, 8, 56, 56]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_9'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_13'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_4'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_14'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_15'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_17'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_18'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape1' has shape: [1, 8, 12, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape1' has shape: [1, 8, 12, 28, 28], Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Transpose' has shape: [1, 12, 8, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape_11'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Transpose' has shape: [1, 12, 8, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_20'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_24'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_26'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_27'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape' has shape: [1, 8, 12, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape' has shape: [1, 8, 12, 28, 28], Tensor 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Transpose' has shape: [1, 12, 8, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Transpose' has shape: [1, 12, 8, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_29'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_33'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_35'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_36'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape' has shape: [1, 8, 12, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape' has shape: [1, 8, 12, 28, 28], Tensor 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Transpose' has shape: [1, 12, 8, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Transpose' has shape: [1, 12, 8, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_38'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_42'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_44'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_45'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape1' has shape: [1, 8, 24, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape1' has shape: [1, 8, 24, 28, 28], Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Transpose' has shape: [1, 24, 8, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape_11'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Transpose' has shape: [1, 24, 8, 28, 28]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_47'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_51'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_52'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_53'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_55'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_56'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape1' has shape: [1, 8, 24, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape1' has shape: [1, 8, 24, 14, 14], Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_11'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_58'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_62'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_64'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_65'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14], Tensor 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_67'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_71'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_73'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_74'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14], Tensor 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_76'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_80'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_82'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_83'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14], Tensor 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_85'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_89'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_91'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_92'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14], Tensor 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_94'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_98'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_100'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_101'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14], Tensor 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_103'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_107'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_109'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_110'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape' has shape: [1, 8, 24, 14, 14], Tensor 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Transpose' has shape: [1, 24, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_112'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_116'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_118'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_119'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape1' has shape: [1, 8, 48, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape1' has shape: [1, 8, 48, 14, 14], Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Transpose' has shape: [1, 48, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape_11'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Transpose' has shape: [1, 48, 8, 14, 14]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_121'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_125'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_126'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_127'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage3/unit1/activ_1/Relu1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_130'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape1' has shape: [1, 8, 48, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape1' has shape: [1, 8, 48, 7, 7], Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Transpose' has shape: [1, 48, 8, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape_11'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Transpose' has shape: [1, 48, 8, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_132'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_139'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape' has shape: [1, 8, 48, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape' has shape: [1, 8, 48, 7, 7], Tensor 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Transpose' has shape: [1, 48, 8, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Transpose' has shape: [1, 48, 8, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_141'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_148'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_10/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape' has shape: [1, 8, 48, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Transpose'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape' has shape: [1, 8, 48, 7, 7], Tensor 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Transpose' has shape: [1, 48, 8, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape_1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Transpose' has shape: [1, 48, 8, 7, 7]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_150'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: PadV2 operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+<nng.Tensor 'Pad' shape=[1, 3, 226, 226] dtype=int8> adding consumer <nng.Operation 'transpose_1' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_1' type=Transpose>
+<nng.Tensor 'transpose_1' shape=[1, 226, 226, 3] dtype=int8> adding consumer <nng.Operation 'call_main_split_2' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/init_block/activ/Relu;Add;convolution_177;convolution;Const_98' shape=[1, 112, 112, 24] dtype=int8> adding consumer <nng.Operation 'transpose_2' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_2' type=Transpose>
+<nng.Tensor 'transpose_2' shape=[1, 24, 112, 112] dtype=int8> adding consumer <nng.Operation 'PadV2' type=PadV2>
+<nng.Tensor 'Const1' shape=[4, 2] dtype=int32> adding consumer <nng.Operation 'PadV2' type=PadV2>
+<nng.Tensor 'PadV2/constant_values' shape=[] dtype=int8> adding consumer <nng.Operation 'PadV2' type=PadV2>
+<nng.Tensor 'PadV2' shape=[1, 24, 114, 114] dtype=int8> adding consumer <nng.Operation 'transpose_3' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_3' type=Transpose>
+<nng.Tensor 'transpose_3' shape=[1, 114, 114, 24] dtype=int8> adding consumer <nng.Operation 'call_main_split_3' type=CustomNpuOp>
+<nng.Tensor 'MaxPool2d' shape=[1, 56, 56, 24] dtype=int8> adding consumer <nng.Operation 'transpose_4' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_4' type=Transpose>
+<nng.Tensor 'transpose_4' shape=[1, 24, 56, 56] dtype=int8> adding consumer <nng.Operation 'call_main_split_4' type=CustomNpuOp>
+<nng.Tensor 'Pad_2' shape=[1, 24, 58, 58] dtype=int8> adding consumer <nng.Operation 'transpose_14' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_14' type=Transpose>
+<nng.Tensor 'transpose_14' shape=[1, 58, 58, 24] dtype=int8> adding consumer <nng.Operation 'call_main_split_5' type=CustomNpuOp>
+<nng.Tensor 'MaxPool2d' shape=[1, 56, 56, 24] dtype=int8> adding consumer <nng.Operation 'call_main_split_5' type=CustomNpuOp>
+<nng.Tensor 'AvgPool' shape=[1, 28, 28, 24] dtype=int8> adding consumer <nng.Operation 'transpose_15' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_15' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/activ/Relu;Add_1;convolution_201;convolution_1;Const_96' shape=[1, 56, 56, 96] dtype=int8> adding consumer <nng.Operation 'transpose_7' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_7' type=Transpose>
+<nng.Tensor 'transpose_7' shape=[1, 96, 56, 56] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape1' shape=[1, 8, 12, 56, 56] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose' shape=[1, 12, 8, 56, 56] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape_11' shape=[1, 96, 56, 56] dtype=int8> adding consumer <nng.Operation 'call_main_split_6' type=CustomNpuOp>
+<nng.Tensor 'Pad_1' shape=[1, 96, 58, 58] dtype=int8> adding consumer <nng.Operation 'transpose_9' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_9' type=Transpose>
+<nng.Tensor 'transpose_9' shape=[1, 58, 58, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_7' type=CustomNpuOp>
+<nng.Tensor 'Add_5' shape=[1, 28, 28, 360] dtype=int8> adding consumer <nng.Operation 'transpose_13' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_13' type=Transpose>
+<nng.Tensor 'transpose_13' shape=[1, 360, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit1/Concat' type=ConcatTFLite>
+<nng.Tensor 'transpose_15' shape=[1, 24, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit1/Concat' type=ConcatTFLite>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/Concat' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_8' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/activ_1/Relu' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'transpose_17' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_17' type=Transpose>
+<nng.Tensor 'transpose_17' shape=[1, 28, 28, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_9' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/activ/Relu;Add_6' shape=[1, 28, 28, 96] dtype=int8> adding consumer <nng.Operation 'transpose_18' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_18' type=Transpose>
+<nng.Tensor 'transpose_18' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape1' shape=[1, 8, 12, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Transpose' shape=[1, 12, 8, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape_11' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_10' type=CustomNpuOp>
+<nng.Tensor 'Pad_3' shape=[1, 96, 30, 30] dtype=int8> adding consumer <nng.Operation 'transpose_20' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_20' type=Transpose>
+<nng.Tensor 'transpose_20' shape=[1, 30, 30, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_11' type=CustomNpuOp>
+<nng.Tensor 'Add_10' shape=[1, 28, 28, 384] dtype=int8> adding consumer <nng.Operation 'transpose_24' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_24' type=Transpose>
+<nng.Tensor 'transpose_24' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_12' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/activ_1/Relu' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_12' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/activ_1/Relu;onnx_tf_prefix_/features/stage1/unit2/Add' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'transpose_26' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_26' type=Transpose>
+<nng.Tensor 'transpose_26' shape=[1, 28, 28, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_13' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit3/activ/Relu;Add_11' shape=[1, 28, 28, 96] dtype=int8> adding consumer <nng.Operation 'transpose_27' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_27' type=Transpose>
+<nng.Tensor 'transpose_27' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape' shape=[1, 8, 12, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Transpose' shape=[1, 12, 8, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape_1' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_14' type=CustomNpuOp>
+<nng.Tensor 'Pad_4' shape=[1, 96, 30, 30] dtype=int8> adding consumer <nng.Operation 'transpose_29' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_29' type=Transpose>
+<nng.Tensor 'transpose_29' shape=[1, 30, 30, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_15' type=CustomNpuOp>
+<nng.Tensor 'Add_15' shape=[1, 28, 28, 384] dtype=int8> adding consumer <nng.Operation 'transpose_33' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_33' type=Transpose>
+<nng.Tensor 'transpose_33' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_16' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/activ_1/Relu;onnx_tf_prefix_/features/stage1/unit2/Add' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_16' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit3/activ_1/Relu;onnx_tf_prefix_/features/stage1/unit3/Add' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'transpose_35' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_35' type=Transpose>
+<nng.Tensor 'transpose_35' shape=[1, 28, 28, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_17' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit4/activ/Relu;Add_16' shape=[1, 28, 28, 96] dtype=int8> adding consumer <nng.Operation 'transpose_36' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_36' type=Transpose>
+<nng.Tensor 'transpose_36' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape' shape=[1, 8, 12, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Transpose' shape=[1, 12, 8, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape_1' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_18' type=CustomNpuOp>
+<nng.Tensor 'Pad_5' shape=[1, 96, 30, 30] dtype=int8> adding consumer <nng.Operation 'transpose_38' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_38' type=Transpose>
+<nng.Tensor 'transpose_38' shape=[1, 30, 30, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_19' type=CustomNpuOp>
+<nng.Tensor 'Add_20' shape=[1, 28, 28, 384] dtype=int8> adding consumer <nng.Operation 'transpose_42' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_42' type=Transpose>
+<nng.Tensor 'transpose_42' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_20' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit3/activ_1/Relu;onnx_tf_prefix_/features/stage1/unit3/Add' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_20' type=CustomNpuOp>
+<nng.Tensor 'Pad_7' shape=[1, 384, 30, 30] dtype=int8> adding consumer <nng.Operation 'transpose_52' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_52' type=Transpose>
+<nng.Tensor 'transpose_52' shape=[1, 30, 30, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_21' type=CustomNpuOp>
+<nng.Tensor 'AvgPool_1' shape=[1, 14, 14, 384] dtype=int8> adding consumer <nng.Operation 'transpose_53' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_53' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit4/activ_1/Relu;onnx_tf_prefix_/features/stage1/unit4/Add' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'transpose_44' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_44' type=Transpose>
+<nng.Tensor 'transpose_44' shape=[1, 28, 28, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_22' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/activ/Relu;Add_21' shape=[1, 28, 28, 192] dtype=int8> adding consumer <nng.Operation 'transpose_45' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_45' type=Transpose>
+<nng.Tensor 'transpose_45' shape=[1, 192, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape1' shape=[1, 8, 24, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Transpose' shape=[1, 24, 8, 28, 28] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape_11' shape=[1, 192, 28, 28] dtype=int8> adding consumer <nng.Operation 'call_main_split_23' type=CustomNpuOp>
+<nng.Tensor 'Pad_6' shape=[1, 192, 30, 30] dtype=int8> adding consumer <nng.Operation 'transpose_47' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_47' type=Transpose>
+<nng.Tensor 'transpose_47' shape=[1, 30, 30, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_24' type=CustomNpuOp>
+<nng.Tensor 'Add_25' shape=[1, 14, 14, 384] dtype=int8> adding consumer <nng.Operation 'transpose_51' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_51' type=Transpose>
+<nng.Tensor 'transpose_51' shape=[1, 384, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit1/Concat' type=ConcatTFLite>
+<nng.Tensor 'transpose_53' shape=[1, 384, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit1/Concat' type=ConcatTFLite>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/Concat' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_25' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/activ_1/Relu' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'transpose_55' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_55' type=Transpose>
+<nng.Tensor 'transpose_55' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'call_main_split_26' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/activ/Relu;Add_26' shape=[1, 14, 14, 192] dtype=int8> adding consumer <nng.Operation 'transpose_56' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_56' type=Transpose>
+<nng.Tensor 'transpose_56' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape1' shape=[1, 8, 24, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Transpose' shape=[1, 24, 8, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_11' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_27' type=CustomNpuOp>
+<nng.Tensor 'Pad_8' shape=[1, 192, 16, 16] dtype=int8> adding consumer <nng.Operation 'transpose_58' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_58' type=Transpose>
+<nng.Tensor 'transpose_58' shape=[1, 16, 16, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_28' type=CustomNpuOp>
+<nng.Tensor 'Add_30' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'transpose_62' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_62' type=Transpose>
+<nng.Tensor 'transpose_62' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_29' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/activ_1/Relu' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_29' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit2/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'transpose_64' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_64' type=Transpose>
+<nng.Tensor 'transpose_64' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'call_main_split_30' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit3/activ/Relu;Add_31' shape=[1, 14, 14, 192] dtype=int8> adding consumer <nng.Operation 'transpose_65' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_65' type=Transpose>
+<nng.Tensor 'transpose_65' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape' shape=[1, 8, 24, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Transpose' shape=[1, 24, 8, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape_1' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_31' type=CustomNpuOp>
+<nng.Tensor 'Pad_9' shape=[1, 192, 16, 16] dtype=int8> adding consumer <nng.Operation 'transpose_67' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_67' type=Transpose>
+<nng.Tensor 'transpose_67' shape=[1, 16, 16, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_32' type=CustomNpuOp>
+<nng.Tensor 'Add_35' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'transpose_71' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_71' type=Transpose>
+<nng.Tensor 'transpose_71' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_33' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit2/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_33' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit3/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit3/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'transpose_73' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_73' type=Transpose>
+<nng.Tensor 'transpose_73' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'call_main_split_34' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit4/activ/Relu;Add_36' shape=[1, 14, 14, 192] dtype=int8> adding consumer <nng.Operation 'transpose_74' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_74' type=Transpose>
+<nng.Tensor 'transpose_74' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape' shape=[1, 8, 24, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Transpose' shape=[1, 24, 8, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape_1' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_35' type=CustomNpuOp>
+<nng.Tensor 'Pad_10' shape=[1, 192, 16, 16] dtype=int8> adding consumer <nng.Operation 'transpose_76' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_76' type=Transpose>
+<nng.Tensor 'transpose_76' shape=[1, 16, 16, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_36' type=CustomNpuOp>
+<nng.Tensor 'Add_40' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'transpose_80' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_80' type=Transpose>
+<nng.Tensor 'transpose_80' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_37' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit3/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit3/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_37' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit4/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit4/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'transpose_82' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_82' type=Transpose>
+<nng.Tensor 'transpose_82' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'call_main_split_38' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit5/activ/Relu;Add_41' shape=[1, 14, 14, 192] dtype=int8> adding consumer <nng.Operation 'transpose_83' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_83' type=Transpose>
+<nng.Tensor 'transpose_83' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape' shape=[1, 8, 24, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Transpose' shape=[1, 24, 8, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape_1' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_39' type=CustomNpuOp>
+<nng.Tensor 'Pad_11' shape=[1, 192, 16, 16] dtype=int8> adding consumer <nng.Operation 'transpose_85' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_85' type=Transpose>
+<nng.Tensor 'transpose_85' shape=[1, 16, 16, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_40' type=CustomNpuOp>
+<nng.Tensor 'Add_45' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'transpose_89' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_89' type=Transpose>
+<nng.Tensor 'transpose_89' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_41' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit4/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit4/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_41' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit5/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit5/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'transpose_91' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_91' type=Transpose>
+<nng.Tensor 'transpose_91' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'call_main_split_42' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit6/activ/Relu;Add_46' shape=[1, 14, 14, 192] dtype=int8> adding consumer <nng.Operation 'transpose_92' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_92' type=Transpose>
+<nng.Tensor 'transpose_92' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape' shape=[1, 8, 24, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Transpose' shape=[1, 24, 8, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape_1' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_43' type=CustomNpuOp>
+<nng.Tensor 'Pad_12' shape=[1, 192, 16, 16] dtype=int8> adding consumer <nng.Operation 'transpose_94' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_94' type=Transpose>
+<nng.Tensor 'transpose_94' shape=[1, 16, 16, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_44' type=CustomNpuOp>
+<nng.Tensor 'Add_50' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'transpose_98' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_98' type=Transpose>
+<nng.Tensor 'transpose_98' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_45' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit5/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit5/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_45' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit6/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit6/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'transpose_100' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_100' type=Transpose>
+<nng.Tensor 'transpose_100' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'call_main_split_46' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit7/activ/Relu;Add_51' shape=[1, 14, 14, 192] dtype=int8> adding consumer <nng.Operation 'transpose_101' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_101' type=Transpose>
+<nng.Tensor 'transpose_101' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape' shape=[1, 8, 24, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Transpose' shape=[1, 24, 8, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape_1' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_47' type=CustomNpuOp>
+<nng.Tensor 'Pad_13' shape=[1, 192, 16, 16] dtype=int8> adding consumer <nng.Operation 'transpose_103' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_103' type=Transpose>
+<nng.Tensor 'transpose_103' shape=[1, 16, 16, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_48' type=CustomNpuOp>
+<nng.Tensor 'Add_55' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'transpose_107' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_107' type=Transpose>
+<nng.Tensor 'transpose_107' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_49' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit6/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit6/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_49' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit7/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit7/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'transpose_109' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_109' type=Transpose>
+<nng.Tensor 'transpose_109' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'call_main_split_50' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit8/activ/Relu;Add_56' shape=[1, 14, 14, 192] dtype=int8> adding consumer <nng.Operation 'transpose_110' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_110' type=Transpose>
+<nng.Tensor 'transpose_110' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape' shape=[1, 8, 24, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Transpose' shape=[1, 24, 8, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape_1' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_51' type=CustomNpuOp>
+<nng.Tensor 'Pad_14' shape=[1, 192, 16, 16] dtype=int8> adding consumer <nng.Operation 'transpose_112' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_112' type=Transpose>
+<nng.Tensor 'transpose_112' shape=[1, 16, 16, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_52' type=CustomNpuOp>
+<nng.Tensor 'Add_60' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'transpose_116' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_116' type=Transpose>
+<nng.Tensor 'transpose_116' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_53' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit7/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit7/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_53' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit8/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit8/Add' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'transpose_118' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_118' type=Transpose>
+<nng.Tensor 'transpose_118' shape=[1, 14, 14, 768] dtype=int8> adding consumer <nng.Operation 'call_main_split_55' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit1/activ/Relu;Add_61' shape=[1, 14, 14, 384] dtype=int8> adding consumer <nng.Operation 'transpose_119' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_119' type=Transpose>
+<nng.Tensor 'transpose_119' shape=[1, 384, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape1' shape=[1, 8, 48, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Transpose' shape=[1, 48, 8, 14, 14] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape_11' shape=[1, 384, 14, 14] dtype=int8> adding consumer <nng.Operation 'call_main_split_56' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/activ/Relu;Add_66' shape=[1, 7, 7, 384] dtype=int8> adding consumer <nng.Operation 'transpose_130' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_130' type=Transpose>
+<nng.Tensor 'transpose_130' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape1' shape=[1, 8, 48, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Transpose' shape=[1, 48, 8, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape_11' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape_11' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'call_main_split_60' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit3/activ/Relu;Add_71' shape=[1, 7, 7, 384] dtype=int8> adding consumer <nng.Operation 'transpose_139' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_139' type=Transpose>
+<nng.Tensor 'transpose_139' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape' shape=[1, 8, 48, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Transpose' shape=[1, 48, 8, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape_1' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'call_main_split_62' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit4/activ/Relu;Add_76' shape=[1, 7, 7, 384] dtype=int8> adding consumer <nng.Operation 'transpose_148' type=Transpose>
+<nng.Tensor 'transpose_10/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_148' type=Transpose>
+<nng.Tensor 'transpose_148' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape' shape=[1, 8, 48, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Transpose/perm' shape=[5] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Transpose' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Transpose' shape=[1, 48, 8, 7, 7] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape_1' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape_1' type=Reshape>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape_1' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'call_main_split_64' type=CustomNpuOp>
+<nng.Tensor 'transpose_4_npu' shape=[1, 24, 56, 56] dtype=int8> adding consumer <nng.Operation 'Pad_2_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_2_right_0_npu' shape=[1, 24, 56, 1] dtype=int8> adding consumer <nng.Operation 'Pad_2_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit1/c_shuffle/Reshape_11_npu' shape=[1, 96, 56, 56] dtype=int8> adding consumer <nng.Operation 'Pad_1_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_1_right_0_npu' shape=[1, 96, 56, 1] dtype=int8> adding consumer <nng.Operation 'Pad_1_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit2/c_shuffle/Reshape_11_npu' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'Pad_3_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_3_right_0_npu' shape=[1, 96, 28, 1] dtype=int8> adding consumer <nng.Operation 'Pad_3_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit3/c_shuffle/Reshape_1_npu' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'Pad_4_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_4_right_0_npu' shape=[1, 96, 28, 1] dtype=int8> adding consumer <nng.Operation 'Pad_4_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit4/c_shuffle/Reshape_1_npu' shape=[1, 96, 28, 28] dtype=int8> adding consumer <nng.Operation 'Pad_5_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_5_right_0_npu' shape=[1, 96, 28, 1] dtype=int8> adding consumer <nng.Operation 'Pad_5_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage1/unit4/activ_1/Relu;onnx_tf_prefix_/features/stage1/unit4/Add_cpu' shape=[1, 384, 28, 28] dtype=int8> adding consumer <nng.Operation 'Pad_7_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_7_right_0_npu' shape=[1, 384, 28, 1] dtype=int8> adding consumer <nng.Operation 'Pad_7_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit1/c_shuffle/Reshape_11_npu' shape=[1, 192, 28, 28] dtype=int8> adding consumer <nng.Operation 'Pad_6_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_6_right_0_npu' shape=[1, 192, 28, 1] dtype=int8> adding consumer <nng.Operation 'Pad_6_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit2/c_shuffle/Reshape_11_npu' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_8_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_8_right_0_npu' shape=[1, 192, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_8_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit3/c_shuffle/Reshape_1_npu' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_9_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_9_right_0_npu' shape=[1, 192, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_9_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit4/c_shuffle/Reshape_1_npu' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_10_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_10_right_0_npu' shape=[1, 192, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_10_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit5/c_shuffle/Reshape_1_npu' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_11_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_11_right_0_npu' shape=[1, 192, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_11_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit6/c_shuffle/Reshape_1_npu' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_12_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_12_right_0_npu' shape=[1, 192, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_12_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit7/c_shuffle/Reshape_1_npu' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_13_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_13_right_0_npu' shape=[1, 192, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_13_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit8/c_shuffle/Reshape_1_npu' shape=[1, 192, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_14_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_14_right_0_npu' shape=[1, 192, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_14_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage2/unit8/activ_1/Relu;onnx_tf_prefix_/features/stage2/unit8/Add_cpu' shape=[1, 768, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_16_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_16_right_0_npu' shape=[1, 768, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_16_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit1/c_shuffle/Reshape_11_npu' shape=[1, 384, 14, 14] dtype=int8> adding consumer <nng.Operation 'Pad_15_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_15_right_0_npu' shape=[1, 384, 14, 1] dtype=int8> adding consumer <nng.Operation 'Pad_15_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit2/c_shuffle/Reshape_11_npu' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'Pad_17_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_17_right_0_npu' shape=[1, 384, 7, 1] dtype=int8> adding consumer <nng.Operation 'Pad_17_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit3/c_shuffle/Reshape_1_npu' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'Pad_18_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_18_right_0_npu' shape=[1, 384, 7, 1] dtype=int8> adding consumer <nng.Operation 'Pad_18_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_/features/stage3/unit4/c_shuffle/Reshape_1_npu' shape=[1, 384, 7, 7] dtype=int8> adding consumer <nng.Operation 'Pad_19_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_19_right_0_npu' shape=[1, 384, 7, 1] dtype=int8> adding consumer <nng.Operation 'Pad_19_concat2_avgpool' type=AvgPool>
+
+Network summary for shufflenet_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                368.78 KiB
+Total DRAM used                               4054.05 KiB
+
+CPU operators = 9 (1.4%)
+NPU operators = 633 (98.6%)
+
+Average SRAM bandwidth                           0.30 GB/s
+Input   SRAM bandwidth                          17.15 MB/batch
+Weight  SRAM bandwidth                          15.64 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          32.99 MB/batch
+Total   SRAM bandwidth            per input     32.99 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.77 GB/s
+Input   DRAM bandwidth                          38.26 MB/batch
+Weight  DRAM bandwidth                           2.22 MB/batch
+Output  DRAM bandwidth                          44.27 MB/batch
+Total   DRAM bandwidth                          84.77 MB/batch
+Total   DRAM bandwidth            per input     84.77 MB/inference (batch size 1)
+
+Neural network macs                         981634732 MACs/batch
+Network Tops/s                                   0.02 Tops/s
+
+NPU cycles                                   53764650 cycles/batch
+SRAM Access cycles                            8310040 cycles/batch
+DRAM Access cycles                           78481406 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                109623162 cycles/batch
+
+Batch Inference time               109.62 ms,    9.12 inferences/s (batch size 1)
+

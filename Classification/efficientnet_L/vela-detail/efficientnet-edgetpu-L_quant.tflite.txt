@@ -1,0 +1,41 @@
+
+Network summary for efficientnet-edgetpu-L_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                383.34 KiB
+Total DRAM used                              11800.58 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 129 (100.0%)
+
+Average SRAM bandwidth                           2.20 GB/s
+Input   SRAM bandwidth                          83.77 MB/batch
+Weight  SRAM bandwidth                          83.03 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                         167.09 MB/batch
+Total   SRAM bandwidth            per input    167.09 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           2.40 GB/s
+Input   DRAM bandwidth                          72.06 MB/batch
+Weight  DRAM bandwidth                          70.28 MB/batch
+Output  DRAM bandwidth                          39.81 MB/batch
+Total   DRAM bandwidth                         182.35 MB/batch
+Total   DRAM bandwidth            per input    182.35 MB/inference (batch size 1)
+
+Neural network macs                        9662322187 MACs/batch
+Network Tops/s                                   0.25 Tops/s
+
+NPU cycles                                   64724888 cycles/batch
+SRAM Access cycles                            7243955 cycles/batch
+DRAM Access cycles                           45431589 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 75880454 cycles/batch
+
+Batch Inference time                75.88 ms,   13.18 inferences/s (batch size 1)
+

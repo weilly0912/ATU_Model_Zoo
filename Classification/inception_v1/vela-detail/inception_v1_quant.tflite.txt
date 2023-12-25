@@ -1,0 +1,41 @@
+
+Network summary for inception_v1_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                370.91 KiB
+Total DRAM used                               5926.69 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 139 (100.0%)
+
+Average SRAM bandwidth                           1.74 GB/s
+Input   SRAM bandwidth                          14.95 MB/batch
+Weight  SRAM bandwidth                          20.20 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          35.23 MB/batch
+Total   SRAM bandwidth            per input     35.23 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.12 GB/s
+Input   DRAM bandwidth                           7.74 MB/batch
+Weight  DRAM bandwidth                           5.27 MB/batch
+Output  DRAM bandwidth                           9.61 MB/batch
+Total   DRAM bandwidth                          22.63 MB/batch
+Total   DRAM bandwidth            per input     22.63 MB/inference (batch size 1)
+
+Neural network macs                        1515925138 MACs/batch
+Network Tops/s                                   0.15 Tops/s
+
+NPU cycles                                   14631220 cycles/batch
+SRAM Access cycles                            1308428 cycles/batch
+DRAM Access cycles                           10655733 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 20285069 cycles/batch
+
+Batch Inference time                20.29 ms,   49.30 inferences/s (batch size 1)
+

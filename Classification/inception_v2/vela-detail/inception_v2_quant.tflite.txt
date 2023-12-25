@@ -1,0 +1,45 @@
+Warning: DEPTHWISE_CONV_2D 'InceptionV2/InceptionV2/Conv2d_1a_7x7/separable_conv2d/depthwise' is not supported on the NPU. Placing on CPU instead
+ - For depth multipliers > 1, IFM channels must be 1 and OFM channels must be equal to the depth multiplier
+   Op has ifm_channels=3, ofm_channels=24 and depth_multiplier=8
+Warning: DepthwiseConv2DBias operation is unknown or unsupported, placing on CPU
+
+Network summary for inception_v2_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                374.83 KiB
+Total DRAM used                               9009.84 KiB
+
+CPU operators = 1 (0.7%)
+NPU operators = 152 (99.3%)
+
+Average SRAM bandwidth                           3.19 GB/s
+Input   SRAM bandwidth                          18.71 MB/batch
+Weight  SRAM bandwidth                          30.40 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          49.22 MB/batch
+Total   SRAM bandwidth            per input     49.22 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.60 GB/s
+Input   DRAM bandwidth                           6.44 MB/batch
+Weight  DRAM bandwidth                           8.64 MB/batch
+Output  DRAM bandwidth                           9.59 MB/batch
+Total   DRAM bandwidth                          24.68 MB/batch
+Total   DRAM bandwidth            per input     24.68 MB/inference (batch size 1)
+
+Neural network macs                        1936770066 MACs/batch
+Network Tops/s                                   0.25 Tops/s
+
+NPU cycles                                   14964482 cycles/batch
+SRAM Access cycles                            1635891 cycles/batch
+DRAM Access cycles                            3062479 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 15423731 cycles/batch
+
+Batch Inference time                15.42 ms,   64.84 inferences/s (batch size 1)
+

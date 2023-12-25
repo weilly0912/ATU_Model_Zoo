@@ -1,0 +1,153 @@
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_2/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_9'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_12'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_15'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_29'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_32'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_46'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_49'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_63'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_66'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_80'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_83'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_97'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_100'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_114'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_117'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_131'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_134'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_148'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_151'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_165'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_168'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_182'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_185'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_199'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Transpose_202'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Transpose_100/perm
+Warning: CONV_2D 'Add;convolution;Const_148' is not supported on the NPU. Placing on CPU instead
+ - Stride values for both width and height must be in the range [1, 3]
+   Op has stride WxH as: 16x16
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+
+Network summary for resmlp_12_224_bn_relu_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                367.50 KiB
+Total DRAM used                              10306.19 KiB
+
+CPU operators = 28 (17.8%)
+NPU operators = 129 (82.2%)
+
+Average SRAM bandwidth                           0.18 GB/s
+Input   SRAM bandwidth                          25.65 MB/batch
+Weight  SRAM bandwidth                           0.02 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          25.68 MB/batch
+Total   SRAM bandwidth            per input     25.68 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           3.58 GB/s
+Input   DRAM bandwidth                          11.30 MB/batch
+Weight  DRAM bandwidth                         476.17 MB/batch
+Output  DRAM bandwidth                          12.18 MB/batch
+Total   DRAM bandwidth                         499.91 MB/batch
+Total   DRAM bandwidth            per input    499.91 MB/inference (batch size 1)
+
+Neural network macs                        2952239080 MACs/batch
+Network Tops/s                                   0.04 Tops/s
+
+NPU cycles                                   99722647 cycles/batch
+SRAM Access cycles                            3830184 cycles/batch
+DRAM Access cycles                          139437410 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                139828532 cycles/batch
+
+Batch Inference time               139.83 ms,    7.15 inferences/s (batch size 1)
+

@@ -1,0 +1,41 @@
+
+Network summary for v3-large_224_1.0_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                380.89 KiB
+Total DRAM used                               4830.38 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 139 (100.0%)
+
+Average SRAM bandwidth                           2.59 GB/s
+Input   SRAM bandwidth                          10.00 MB/batch
+Weight  SRAM bandwidth                           4.15 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          14.26 MB/batch
+Total   SRAM bandwidth            per input     14.26 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           2.12 GB/s
+Input   DRAM bandwidth                           1.50 MB/batch
+Weight  DRAM bandwidth                           4.43 MB/batch
+Output  DRAM bandwidth                           5.70 MB/batch
+Total   DRAM bandwidth                          11.71 MB/batch
+Total   DRAM bandwidth            per input     11.71 MB/inference (batch size 1)
+
+Neural network macs                         219045106 MACs/batch
+Network Tops/s                                   0.08 Tops/s
+
+NPU cycles                                    4603417 cycles/batch
+SRAM Access cycles                             928921 cycles/batch
+DRAM Access cycles                            2297403 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                  5516443 cycles/batch
+
+Batch Inference time                 5.52 ms,  181.28 inferences/s (batch size 1)
+

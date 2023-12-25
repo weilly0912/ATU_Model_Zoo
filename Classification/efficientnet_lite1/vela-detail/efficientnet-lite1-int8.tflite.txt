@@ -1,0 +1,41 @@
+
+Network summary for efficientnet-lite1-int8
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                383.08 KiB
+Total DRAM used                               5737.69 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 115 (100.0%)
+
+Average SRAM bandwidth                           2.91 GB/s
+Input   SRAM bandwidth                          19.85 MB/batch
+Weight  SRAM bandwidth                          13.24 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          33.36 MB/batch
+Total   SRAM bandwidth            per input     33.36 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.75 GB/s
+Input   DRAM bandwidth                           3.10 MB/batch
+Weight  DRAM bandwidth                           5.28 MB/batch
+Output  DRAM bandwidth                          11.69 MB/batch
+Total   DRAM bandwidth                          20.08 MB/batch
+Total   DRAM bandwidth            per input     20.08 MB/inference (batch size 1)
+
+Neural network macs                         600442952 MACs/batch
+Network Tops/s                                   0.10 Tops/s
+
+NPU cycles                                    6787682 cycles/batch
+SRAM Access cycles                            1813243 cycles/batch
+DRAM Access cycles                            6258783 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 11452523 cycles/batch
+
+Batch Inference time                11.45 ms,   87.32 inferences/s (batch size 1)
+
