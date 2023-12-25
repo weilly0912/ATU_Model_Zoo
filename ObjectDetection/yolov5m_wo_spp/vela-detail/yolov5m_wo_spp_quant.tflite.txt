@@ -1,0 +1,1248 @@
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_4'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_5'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_25'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_10'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_11'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_13'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_14'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_511'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_17'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_19'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_20'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_561'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_23'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_26'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_28'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_29'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_31'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_32'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_34'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_35'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_37'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_38'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_40'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_41'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_721'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_44'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_46'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_47'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_771'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_50'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_52'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_53'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_821'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_56'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_58'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_59'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_871'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_62'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_64'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_65'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_921'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_68'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_70'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_71'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_971'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_74'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_77'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_79'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_80'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_82'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_83'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_127'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_86'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_88'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_89'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_91'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_92'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_1131'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_95'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_97'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_98'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_1181'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_101'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_103'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_104'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_1231'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_107'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_109'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_110'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_1281'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_113'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_115'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_116'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_1331'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_119'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_121'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_122'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'onnx_tf_prefix_Add_1381'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_125'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_128'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_130'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_131'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_133'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_134'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_136'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_137'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_139'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_140'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_142'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_143'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_145'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_146'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_148'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_149'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_151'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_152'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_154'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_155'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_158'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_160'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_161'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_163'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_164'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_165'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_166'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_168'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_169'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_171'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_172'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_174'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_175'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_177'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_178'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_180'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_181'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_183'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_184'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_187'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_189'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_190'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_192'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_193'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_194'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_195'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_197'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_198'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_200'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_201'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_203'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_204'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_206'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_207'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_209'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_210'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_212'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_213'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_216'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_218'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_219'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_221'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_222'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_224'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_225'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_227'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_228'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_230'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_231'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_233'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_234'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_236'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_237'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_239'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_240'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_243'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_245'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_246'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_248'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_249'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_251'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_252'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_254'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_255'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_257'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_258'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_260'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_261'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_263'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_264'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_266'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_267'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_270'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_272'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_273'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_281'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_282'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_Reshape_2971'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_Reshape_2971' has shape: [1, 3, 85, 20, 20]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'StatefulPartitionedCall:11'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_Reshape_2971' has shape: [1, 3, 85, 20, 20], Tensor 'StatefulPartitionedCall:11' has shape: [1, 3, 20, 20, 85]
+Warning: Unsupported TensorFlow Lite semantics for QUANTIZE 'StatefulPartitionedCall:1'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'StatefulPartitionedCall:11' has shape: [1, 3, 20, 20, 85], Tensor 'StatefulPartitionedCall:1' has shape: [1, 3, 20, 20, 85]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_275'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_276'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_Reshape_2651'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_Reshape_2651' has shape: [1, 3, 85, 80, 80]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'StatefulPartitionedCall:21'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_Reshape_2651' has shape: [1, 3, 85, 80, 80], Tensor 'StatefulPartitionedCall:21' has shape: [1, 3, 80, 80, 85]
+Warning: Unsupported TensorFlow Lite semantics for QUANTIZE 'StatefulPartitionedCall:2'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'StatefulPartitionedCall:21' has shape: [1, 3, 80, 80, 85], Tensor 'StatefulPartitionedCall:2' has shape: [1, 3, 80, 80, 85]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_278'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_279'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_101/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'onnx_tf_prefix_Reshape_2811'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_Reshape_2811' has shape: [1, 3, 85, 40, 40]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'StatefulPartitionedCall:01'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'onnx_tf_prefix_Reshape_2811' has shape: [1, 3, 85, 40, 40], Tensor 'StatefulPartitionedCall:01' has shape: [1, 3, 40, 40, 85]
+Warning: Unsupported TensorFlow Lite semantics for QUANTIZE 'StatefulPartitionedCall:0'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'StatefulPartitionedCall:01' has shape: [1, 3, 40, 40, 85], Tensor 'StatefulPartitionedCall:0' has shape: [1, 3, 40, 40, 85]
+Warning: STRIDED_SLICE 'onnx_tf_prefix_Slice_9' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 1 1 2]
+Warning: STRIDED_SLICE 'onnx_tf_prefix_Slice_243' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 1 2 1]
+Warning: STRIDED_SLICE 'onnx_tf_prefix_Slice_19' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 1 1 2]
+Warning: STRIDED_SLICE 'onnx_tf_prefix_Slice_341' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 1 2 1]
+Warning: STRIDED_SLICE 'onnx_tf_prefix_Slice_293' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 1 1 2]
+Warning: STRIDED_SLICE 'onnx_tf_prefix_Slice_39' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 1 1 2]
+Warning: Quantize operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Quantize operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Quantize operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+<nng.Tensor 'tfl.quantize' shape=[1, 3, 640, 640] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_341' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_34' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_341' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_241' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_341' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_242' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_341' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_341' shape=[1, 3, 320, 640] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_39' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_292' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_39' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_291' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_39' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_29' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_39' type=StridedSlice>
+<nng.Tensor 'tfl.quantize' shape=[1, 3, 640, 640] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_243' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_24' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_243' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_241' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_243' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_242' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_243' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_243' shape=[1, 3, 320, 640] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_293' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_292' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_293' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_291' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_293' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_29' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_293' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_341' shape=[1, 3, 320, 640] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_19' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_24' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_19' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_291' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_19' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_29' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_19' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_243' shape=[1, 3, 320, 640] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_9' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_24' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_9' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_291' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_9' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_29' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Slice_9' type=StridedSlice>
+<nng.Tensor 'onnx_tf_prefix_Slice_9' shape=[1, 3, 320, 320] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Concat_40' type=ConcatTFLite>
+<nng.Tensor 'onnx_tf_prefix_Slice_19' shape=[1, 3, 320, 320] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Concat_40' type=ConcatTFLite>
+<nng.Tensor 'onnx_tf_prefix_Slice_293' shape=[1, 3, 320, 320] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Concat_40' type=ConcatTFLite>
+<nng.Tensor 'onnx_tf_prefix_Slice_39' shape=[1, 3, 320, 320] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Concat_40' type=ConcatTFLite>
+<nng.Tensor 'onnx_tf_prefix_Concat_40' shape=[1, 12, 320, 320] dtype=int8> adding consumer <nng.Operation 'call_main_split_2' type=CustomNpuOp>
+<nng.Tensor 'Pad' shape=[1, 12, 322, 322] dtype=int8> adding consumer <nng.Operation 'transpose_1' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_1' type=Transpose>
+<nng.Tensor 'transpose_1' shape=[1, 322, 322, 12] dtype=int8> adding consumer <nng.Operation 'call_main_split_3' type=CustomNpuOp>
+<nng.Tensor 'Add_24;convolution_7;convolution;Const_208' shape=[1, 320, 320, 48] dtype=int8> adding consumer <nng.Operation 'transpose_2' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_2' type=Transpose>
+<nng.Tensor 'transpose_2' shape=[1, 48, 320, 320] dtype=int8> adding consumer <nng.Operation 'call_main_split_4' type=CustomNpuOp>
+<nng.Tensor 'Pad_1' shape=[1, 48, 322, 322] dtype=int8> adding consumer <nng.Operation 'transpose_4' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_4' type=Transpose>
+<nng.Tensor 'transpose_4' shape=[1, 322, 322, 48] dtype=int8> adding consumer <nng.Operation 'call_main_split_5' type=CustomNpuOp>
+<nng.Tensor 'Add_25;convolution_70;convolution_1;Const_206' shape=[1, 160, 160, 96] dtype=int8> adding consumer <nng.Operation 'transpose_5' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_5' type=Transpose>
+<nng.Tensor 'transpose_5' shape=[1, 96, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_6' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_44' shape=[1, 96, 160, 160] dtype=int8> adding consumer <nng.Operation 'transpose_25' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_25' type=Transpose>
+<nng.Tensor 'transpose_25' shape=[1, 160, 160, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_7' type=CustomNpuOp>
+<nng.Tensor 'convolution_810' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'transpose_26' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_26' type=Transpose>
+<nng.Tensor 'Add_26;convolution_7;convolution_2;Const_204' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'transpose_8' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_8' type=Transpose>
+<nng.Tensor 'transpose_8' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_8' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_46' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'transpose_10' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_10' type=Transpose>
+<nng.Tensor 'transpose_10' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'call_main_split_9' type=CustomNpuOp>
+<nng.Tensor 'Add_27;convolution_7;convolution_3;Const_202' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'transpose_11' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_11' type=Transpose>
+<nng.Tensor 'transpose_11' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_10' type=CustomNpuOp>
+<nng.Tensor 'Pad_2' shape=[1, 48, 162, 162] dtype=int8> adding consumer <nng.Operation 'transpose_13' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_13' type=Transpose>
+<nng.Tensor 'transpose_13' shape=[1, 162, 162, 48] dtype=int8> adding consumer <nng.Operation 'call_main_split_11' type=CustomNpuOp>
+<nng.Tensor 'Add_28;convolution_7;convolution_4;Const_200' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'transpose_14' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_14' type=Transpose>
+<nng.Tensor 'transpose_14' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_12' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_46' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_12' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_51' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_511' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_511' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_511' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'call_main_split_13' type=CustomNpuOp>
+<nng.Tensor 'Add_29;convolution_7;convolution_5;Const_198' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'transpose_17' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_17' type=Transpose>
+<nng.Tensor 'transpose_17' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_14' type=CustomNpuOp>
+<nng.Tensor 'Pad_3' shape=[1, 48, 162, 162] dtype=int8> adding consumer <nng.Operation 'transpose_19' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_19' type=Transpose>
+<nng.Tensor 'transpose_19' shape=[1, 162, 162, 48] dtype=int8> adding consumer <nng.Operation 'call_main_split_15' type=CustomNpuOp>
+<nng.Tensor 'Add_30;convolution_7;convolution_6;Const_196' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'transpose_20' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_20' type=Transpose>
+<nng.Tensor 'transpose_20' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_16' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_51' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_16' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_56' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_561' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_561' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_561' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'call_main_split_17' type=CustomNpuOp>
+<nng.Tensor 'convolution_7101' shape=[1, 160, 160, 48] dtype=int8> adding consumer <nng.Operation 'transpose_23' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_23' type=Transpose>
+<nng.Tensor 'transpose_23' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Concat_59' type=ConcatTFLite>
+<nng.Tensor 'transpose_26' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Concat_59' type=ConcatTFLite>
+<nng.Tensor 'onnx_tf_prefix_Concat_59' shape=[1, 96, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_18' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_61' shape=[1, 96, 160, 160] dtype=int8> adding consumer <nng.Operation 'transpose_28' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_28' type=Transpose>
+<nng.Tensor 'transpose_28' shape=[1, 160, 160, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_19' type=CustomNpuOp>
+<nng.Tensor 'Add_31;convolution_70;convolution_9;Const_188' shape=[1, 160, 160, 96] dtype=int8> adding consumer <nng.Operation 'transpose_29' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_29' type=Transpose>
+<nng.Tensor 'transpose_29' shape=[1, 96, 160, 160] dtype=int8> adding consumer <nng.Operation 'call_main_split_20' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_67' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'transpose_37' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_37' type=Transpose>
+<nng.Tensor 'transpose_37' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_25' type=CustomNpuOp>
+<nng.Tensor 'Add_34;convolution_70;convolution_12;Const_182' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_38' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_38' type=Transpose>
+<nng.Tensor 'transpose_38' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_26' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_72' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_721' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_721' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_721' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_29' type=CustomNpuOp>
+<nng.Tensor 'Add_36;convolution_70;convolution_14;Const_178' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_44' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_44' type=Transpose>
+<nng.Tensor 'transpose_44' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_30' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_77' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_771' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_771' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_771' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_33' type=CustomNpuOp>
+<nng.Tensor 'Add_38;convolution_70;convolution_16;Const_174' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_50' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_50' type=Transpose>
+<nng.Tensor 'transpose_50' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_34' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_82' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_821' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_821' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_821' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_37' type=CustomNpuOp>
+<nng.Tensor 'Add_40;convolution_70;convolution_18;Const_170' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_56' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_56' type=Transpose>
+<nng.Tensor 'transpose_56' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_38' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_87' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_871' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_871' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_871' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_41' type=CustomNpuOp>
+<nng.Tensor 'Add_42;convolution_70;convolution_20;Const_166' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_62' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_62' type=Transpose>
+<nng.Tensor 'transpose_62' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_42' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_92' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_921' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_921' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_921' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_45' type=CustomNpuOp>
+<nng.Tensor 'Add_44;convolution_70;convolution_22;Const_162' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_68' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_68' type=Transpose>
+<nng.Tensor 'transpose_68' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_46' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_108' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'transpose_88' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_88' type=Transpose>
+<nng.Tensor 'transpose_88' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_57' type=CustomNpuOp>
+<nng.Tensor 'Add_49;convolution_79;convolution_29;Const_146' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_89' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_89' type=Transpose>
+<nng.Tensor 'transpose_89' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_58' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_113' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1131' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1131' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_1131' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_61' type=CustomNpuOp>
+<nng.Tensor 'Add_51;convolution_79;convolution_31;Const_142' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_95' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_95' type=Transpose>
+<nng.Tensor 'transpose_95' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_62' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_118' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1181' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1181' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_1181' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_65' type=CustomNpuOp>
+<nng.Tensor 'Add_53;convolution_79;convolution_33;Const_138' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_101' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_101' type=Transpose>
+<nng.Tensor 'transpose_101' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_66' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_123' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1231' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1231' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_1231' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_69' type=CustomNpuOp>
+<nng.Tensor 'Add_55;convolution_79;convolution_35;Const_134' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_107' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_107' type=Transpose>
+<nng.Tensor 'transpose_107' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_70' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_128' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1281' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1281' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_1281' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_73' type=CustomNpuOp>
+<nng.Tensor 'Add_57;convolution_79;convolution_37;Const_130' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_113' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_113' type=Transpose>
+<nng.Tensor 'transpose_113' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_74' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Add_133' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1331' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'onnx_tf_prefix_Add_1331' type=Transpose>
+<nng.Tensor 'onnx_tf_prefix_Add_1331' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_77' type=CustomNpuOp>
+<nng.Tensor 'Add_59;convolution_79;convolution_39;Const_126' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_119' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_119' type=Transpose>
+<nng.Tensor 'transpose_119' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_78' type=CustomNpuOp>
+<nng.Tensor 'Pad_18' shape=[1, 384, 42, 42] dtype=int8> adding consumer <nng.Operation 'transpose_133' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_133' type=Transpose>
+<nng.Tensor 'transpose_133' shape=[1, 42, 42, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_85' type=CustomNpuOp>
+<nng.Tensor 'Add_62;convolution_89;convolution_44;Const_114' shape=[1, 20, 20, 768] dtype=int8> adding consumer <nng.Operation 'transpose_134' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_134' type=Transpose>
+<nng.Tensor 'transpose_134' shape=[1, 768, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_86' type=CustomNpuOp>
+<nng.Tensor 'Add_64;convolution_88;convolution_46;Const_110' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'transpose_140' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_140' type=Transpose>
+<nng.Tensor 'transpose_140' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_90' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_151' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'transpose_142' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_142' type=Transpose>
+<nng.Tensor 'transpose_142' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_91' type=CustomNpuOp>
+<nng.Tensor 'Add_65;convolution_88;convolution_47;Const_108' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'transpose_143' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_143' type=Transpose>
+<nng.Tensor 'transpose_143' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_92' type=CustomNpuOp>
+<nng.Tensor 'Pad_20' shape=[1, 384, 22, 22] dtype=int8> adding consumer <nng.Operation 'transpose_145' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_145' type=Transpose>
+<nng.Tensor 'transpose_145' shape=[1, 22, 22, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_93' type=CustomNpuOp>
+<nng.Tensor 'Add_66;convolution_88;convolution_48;Const_106' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'transpose_146' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_146' type=Transpose>
+<nng.Tensor 'transpose_146' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_94' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_155' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'transpose_148' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_148' type=Transpose>
+<nng.Tensor 'transpose_148' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_95' type=CustomNpuOp>
+<nng.Tensor 'Add_67;convolution_88;convolution_49;Const_104' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'transpose_149' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_149' type=Transpose>
+<nng.Tensor 'transpose_149' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_96' type=CustomNpuOp>
+<nng.Tensor 'Add_71;convolution_79;convolution_55;Const_89' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_169' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_169' type=Transpose>
+<nng.Tensor 'transpose_169' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_107' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_173' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'transpose_171' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_171' type=Transpose>
+<nng.Tensor 'transpose_171' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_108' type=CustomNpuOp>
+<nng.Tensor 'Add_72;convolution_79;convolution_56;Const_87' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_172' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_172' type=Transpose>
+<nng.Tensor 'transpose_172' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_109' type=CustomNpuOp>
+<nng.Tensor 'Pad_22' shape=[1, 192, 42, 42] dtype=int8> adding consumer <nng.Operation 'transpose_174' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_174' type=Transpose>
+<nng.Tensor 'transpose_174' shape=[1, 42, 42, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_110' type=CustomNpuOp>
+<nng.Tensor 'Add_73;convolution_79;convolution_57;Const_85' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_175' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_175' type=Transpose>
+<nng.Tensor 'transpose_175' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_111' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_177' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'transpose_177' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_177' type=Transpose>
+<nng.Tensor 'transpose_177' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_112' type=CustomNpuOp>
+<nng.Tensor 'Add_74;convolution_79;convolution_58;Const_83' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_178' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_178' type=Transpose>
+<nng.Tensor 'transpose_178' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_113' type=CustomNpuOp>
+<nng.Tensor 'Add_78;convolution_70;convolution_64;Const_68' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_198' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_198' type=Transpose>
+<nng.Tensor 'transpose_198' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_124' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_195' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'transpose_200' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_200' type=Transpose>
+<nng.Tensor 'transpose_200' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_125' type=CustomNpuOp>
+<nng.Tensor 'Add_79;convolution_70;convolution_65;Const_66' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_201' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_201' type=Transpose>
+<nng.Tensor 'transpose_201' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_126' type=CustomNpuOp>
+<nng.Tensor 'Pad_24' shape=[1, 96, 82, 82] dtype=int8> adding consumer <nng.Operation 'transpose_203' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_203' type=Transpose>
+<nng.Tensor 'transpose_203' shape=[1, 82, 82, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_127' type=CustomNpuOp>
+<nng.Tensor 'Add_80;convolution_70;convolution_66;Const_64' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_204' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_204' type=Transpose>
+<nng.Tensor 'transpose_204' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_128' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_199' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'transpose_206' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_206' type=Transpose>
+<nng.Tensor 'transpose_206' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'call_main_split_129' type=CustomNpuOp>
+<nng.Tensor 'Add_81;convolution_70;convolution_67;Const_62' shape=[1, 80, 80, 96] dtype=int8> adding consumer <nng.Operation 'transpose_207' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_207' type=Transpose>
+<nng.Tensor 'transpose_207' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'call_main_split_130' type=CustomNpuOp>
+<nng.Tensor 'Add_85;convolution_79;convolution_73;Const_48' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_225' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_225' type=Transpose>
+<nng.Tensor 'transpose_225' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_140' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_215' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'transpose_227' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_227' type=Transpose>
+<nng.Tensor 'transpose_227' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_141' type=CustomNpuOp>
+<nng.Tensor 'Add_86;convolution_79;convolution_74;Const_46' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_228' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_228' type=Transpose>
+<nng.Tensor 'transpose_228' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_142' type=CustomNpuOp>
+<nng.Tensor 'Pad_27' shape=[1, 192, 42, 42] dtype=int8> adding consumer <nng.Operation 'transpose_230' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_230' type=Transpose>
+<nng.Tensor 'transpose_230' shape=[1, 42, 42, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_143' type=CustomNpuOp>
+<nng.Tensor 'Add_87;convolution_79;convolution_75;Const_44' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_231' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_231' type=Transpose>
+<nng.Tensor 'transpose_231' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_144' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_219' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'transpose_233' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_233' type=Transpose>
+<nng.Tensor 'transpose_233' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'call_main_split_145' type=CustomNpuOp>
+<nng.Tensor 'Add_88;convolution_79;convolution_76;Const_42' shape=[1, 40, 40, 192] dtype=int8> adding consumer <nng.Operation 'transpose_234' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_234' type=Transpose>
+<nng.Tensor 'transpose_234' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'call_main_split_146' type=CustomNpuOp>
+<nng.Tensor 'Add_92;convolution_88;convolution_82;Const_28' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'transpose_252' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_252' type=Transpose>
+<nng.Tensor 'transpose_252' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_159' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_235' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'transpose_254' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_254' type=Transpose>
+<nng.Tensor 'transpose_254' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_160' type=CustomNpuOp>
+<nng.Tensor 'Add_93;convolution_88;convolution_83;Const_26' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'transpose_255' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_255' type=Transpose>
+<nng.Tensor 'transpose_255' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_161' type=CustomNpuOp>
+<nng.Tensor 'Pad_30' shape=[1, 384, 22, 22] dtype=int8> adding consumer <nng.Operation 'transpose_257' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_257' type=Transpose>
+<nng.Tensor 'transpose_257' shape=[1, 22, 22, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_162' type=CustomNpuOp>
+<nng.Tensor 'Add_94;convolution_88;convolution_84;Const_24' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'transpose_258' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_258' type=Transpose>
+<nng.Tensor 'transpose_258' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_163' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_239' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'transpose_260' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_260' type=Transpose>
+<nng.Tensor 'transpose_260' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'call_main_split_164' type=CustomNpuOp>
+<nng.Tensor 'Add_95;convolution_88;convolution_85;Const_22' shape=[1, 20, 20, 384] dtype=int8> adding consumer <nng.Operation 'transpose_261' type=Transpose>
+<nng.Tensor 'transpose_101/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_261' type=Transpose>
+<nng.Tensor 'transpose_261' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'call_main_split_165' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Concat_40_npu' shape=[1, 12, 320, 320] dtype=int8> adding consumer <nng.Operation 'Pad_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_right_0_npu' shape=[1, 12, 320, 1] dtype=int8> adding consumer <nng.Operation 'Pad_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_2_npu' shape=[1, 48, 320, 320] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_42_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_2_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_42_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_42_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_42_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_42' shape=[1, 48, 320, 320] dtype=int8> adding consumer <nng.Operation 'Pad_1_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_1_right_0_npu' shape=[1, 48, 320, 1] dtype=int8> adding consumer <nng.Operation 'Pad_1_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_11_npu' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_48_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_11_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_48_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_48_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_48_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_48' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'Pad_2_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_2_right_0_npu' shape=[1, 48, 160, 1] dtype=int8> adding consumer <nng.Operation 'Pad_2_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_17_npu' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_53_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_17_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_53_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_53_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_53_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_53' shape=[1, 48, 160, 160] dtype=int8> adding consumer <nng.Operation 'Pad_3_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_3_right_0_npu' shape=[1, 48, 160, 1] dtype=int8> adding consumer <nng.Operation 'Pad_3_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_29_npu' shape=[1, 96, 160, 160] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_63_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_29_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_63_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_63_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_63_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_63' shape=[1, 96, 160, 160] dtype=int8> adding consumer <nng.Operation 'Pad_4_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_4_right_0_npu' shape=[1, 96, 160, 1] dtype=int8> adding consumer <nng.Operation 'Pad_4_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_38_npu' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_69_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_38_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_69_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_69_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_69_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_69' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_5_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_5_right_0_npu' shape=[1, 96, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_5_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_44_npu' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_74_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_44_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_74_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_74_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_74_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_74' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_6_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_6_right_0_npu' shape=[1, 96, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_6_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_50_npu' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_79_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_50_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_79_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_79_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_79_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_79' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_7_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_7_right_0_npu' shape=[1, 96, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_7_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_56_npu' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_84_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_56_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_84_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_84_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_84_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_84' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_8_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_8_right_0_npu' shape=[1, 96, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_8_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_62_npu' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_89_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_62_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_89_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_89_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_89_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_89' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_9_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_9_right_0_npu' shape=[1, 96, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_9_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_68_npu' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_94_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_68_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_94_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_94_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_94_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_94' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_10_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_10_right_0_npu' shape=[1, 96, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_10_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_89_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_110_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_89_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_110_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_110_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_110_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_110' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_12_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_12_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_12_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_95_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_115_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_95_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_115_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_115_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_115_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_115' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_13_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_13_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_13_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_101_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_120_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_101_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_120_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_120_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_120_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_120' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_14_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_14_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_14_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_107_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_125_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_107_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_125_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_125_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_125_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_125' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_15_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_15_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_15_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_113_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_130_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_113_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_130_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_130_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_130_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_130' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_16_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_16_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_16_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_119_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_135_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_119_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_135_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_135_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_135_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_135' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_17_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_17_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_17_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_134_npu' shape=[1, 768, 20, 20] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_147_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_134_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_147_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_147_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_147_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_147' shape=[1, 768, 20, 20] dtype=int8> adding consumer <nng.Operation 'Pad_19_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_19_right_0_npu' shape=[1, 768, 20, 1] dtype=int8> adding consumer <nng.Operation 'Pad_19_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_143_npu' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_153_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_143_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_153_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_153_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_153_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_153' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'Pad_20_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_20_right_0_npu' shape=[1, 384, 20, 1] dtype=int8> adding consumer <nng.Operation 'Pad_20_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_149_npu' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_157_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_149_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_157_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_157_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_157_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_157' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'Pad_21_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_21_right_0_npu' shape=[1, 384, 20, 1] dtype=int8> adding consumer <nng.Operation 'Pad_21_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_172_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_175_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_172_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_175_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_175_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_175_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_175' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_22_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_22_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_22_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_178_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_179_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_178_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_179_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_179_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_179_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_179' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_23_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_23_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_23_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_201_npu' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_197_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_201_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_197_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_197_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_197_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_197' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_24_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_24_right_0_npu' shape=[1, 96, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_24_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_207_npu' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_201_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_207_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_201_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_201_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_201_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_201' shape=[1, 96, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_25_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_25_right_0_npu' shape=[1, 96, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_25_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_210_cpu' shape=[1, 192, 80, 80] dtype=int8> adding consumer <nng.Operation 'Pad_26_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_26_right_0_npu' shape=[1, 192, 80, 1] dtype=int8> adding consumer <nng.Operation 'Pad_26_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_228_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_217_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_228_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_217_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_217_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_217_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_217' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_27_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_27_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_27_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_234_npu' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_221_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_234_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_221_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_221_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_221_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_221' shape=[1, 192, 40, 40] dtype=int8> adding consumer <nng.Operation 'Pad_28_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_28_right_0_npu' shape=[1, 192, 40, 1] dtype=int8> adding consumer <nng.Operation 'Pad_28_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_255_npu' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_237_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_255_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_237_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_237_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_237_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_237' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'Pad_30_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_30_right_0_npu' shape=[1, 384, 20, 1] dtype=int8> adding consumer <nng.Operation 'Pad_30_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_261_npu' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_241_lut_lrelu' type=Add>
+<nng.Tensor 'transpose_261_scalar0_0_npu' shape=[] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_241_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_241_lut_lrelu_values_0_npu' shape=[1, 1, 1, 256] dtype=int8> adding consumer <nng.Operation 'onnx_tf_prefix_LeakyRelu_241_lut_lrelu' type=Add>
+<nng.Tensor 'onnx_tf_prefix_LeakyRelu_241' shape=[1, 384, 20, 20] dtype=int8> adding consumer <nng.Operation 'Pad_31_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_31_right_0_npu' shape=[1, 384, 20, 1] dtype=int8> adding consumer <nng.Operation 'Pad_31_concat2_avgpool' type=AvgPool>
+
+Network summary for yolov5m_wo_spp_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                383.75 KiB
+Total DRAM used                              38151.42 KiB
+
+CPU operators = 120 (28.2%)
+NPU operators = 306 (71.8%)
+
+Average SRAM bandwidth                           0.47 GB/s
+Input   SRAM bandwidth                          34.50 MB/batch
+Weight  SRAM bandwidth                         349.48 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                         384.19 MB/batch
+Total   SRAM bandwidth            per input    384.19 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.71 GB/s
+Input   DRAM bandwidth                         355.03 MB/batch
+Weight  DRAM bandwidth                          19.50 MB/batch
+Output  DRAM bandwidth                         202.19 MB/batch
+Total   DRAM bandwidth                         576.73 MB/batch
+Total   DRAM bandwidth            per input    576.73 MB/inference (batch size 1)
+
+Neural network macs                       26521589712 MACs/batch
+Network Tops/s                                   0.07 Tops/s
+
+NPU cycles                                  293308485 cycles/batch
+SRAM Access cycles                            4528512 cycles/batch
+DRAM Access cycles                          802856814 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                809421812 cycles/batch
+
+Batch Inference time               809.42 ms,    1.24 inferences/s (batch size 1)
+

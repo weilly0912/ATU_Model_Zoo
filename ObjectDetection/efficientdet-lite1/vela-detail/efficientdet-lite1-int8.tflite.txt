@@ -1,0 +1,51 @@
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'tfl.dequantize'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: tfl.dequantize
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'Sigmoid1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Sigmoid1
+Warning: Unsupported TensorFlow Lite semantics for CUSTOM 'StatefulPartitionedCall:3'. Placing on CPU instead
+ - Input(s) and Output tensors must not be dynamic
+   Op has dynamic tensor(s): StatefulPartitionedCall:3, StatefulPartitionedCall:2, StatefulPartitionedCall:1, StatefulPartitionedCall:0
+Warning: Custom operation is unknown or unsupported, placing on CPU
+
+Network summary for efficientdet-lite1-int8
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                379.28 KiB
+Total DRAM used                              17706.41 KiB
+
+CPU operators = 3 (0.9%)
+NPU operators = 318 (99.1%)
+
+Average SRAM bandwidth                           1.68 GB/s
+Input   SRAM bandwidth                          58.18 MB/batch
+Weight  SRAM bandwidth                          37.81 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          96.40 MB/batch
+Total   SRAM bandwidth            per input     96.40 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.73 GB/s
+Input   DRAM bandwidth                          35.59 MB/batch
+Weight  DRAM bandwidth                           5.05 MB/batch
+Output  DRAM bandwidth                          58.94 MB/batch
+Total   DRAM bandwidth                          99.58 MB/batch
+Total   DRAM bandwidth            per input     99.58 MB/inference (batch size 1)
+
+Neural network macs                        1983610422 MACs/batch
+Network Tops/s                                   0.07 Tops/s
+
+NPU cycles                                   38678948 cycles/batch
+SRAM Access cycles                            6469440 cycles/batch
+DRAM Access cycles                           44121996 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 57510190 cycles/batch
+
+Batch Inference time                57.51 ms,   17.39 inferences/s (batch size 1)
+

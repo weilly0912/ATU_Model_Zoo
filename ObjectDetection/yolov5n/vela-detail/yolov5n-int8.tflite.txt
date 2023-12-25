@@ -1,0 +1,41 @@
+
+Network summary for yolov5n-int8
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                384.00 KiB
+Total DRAM used                               7314.98 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 270 (100.0%)
+
+Average SRAM bandwidth                           0.59 GB/s
+Input   SRAM bandwidth                          40.50 MB/batch
+Weight  SRAM bandwidth                          30.35 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          70.90 MB/batch
+Total   SRAM bandwidth            per input     70.90 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.24 GB/s
+Input   DRAM bandwidth                          67.16 MB/batch
+Weight  DRAM bandwidth                           1.69 MB/batch
+Output  DRAM bandwidth                          79.38 MB/batch
+Total   DRAM bandwidth                         148.24 MB/batch
+Total   DRAM bandwidth            per input    148.24 MB/inference (batch size 1)
+
+Neural network macs                        2265739200 MACs/batch
+Network Tops/s                                   0.04 Tops/s
+
+NPU cycles                                   57678487 cycles/batch
+SRAM Access cycles                            4549219 cycles/batch
+DRAM Access cycles                          101666328 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                119597450 cycles/batch
+
+Batch Inference time               119.60 ms,    8.36 inferences/s (batch size 1)
+

@@ -1,0 +1,91 @@
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'tfl.dequantize'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: tfl.dequantize
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'Sigmoid1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Sigmoid1
+Warning: Unsupported TensorFlow Lite semantics for CUSTOM 'StatefulPartitionedCall:3'. Placing on CPU instead
+ - Input(s) and Output tensors must not be dynamic
+   Op has dynamic tensor(s): StatefulPartitionedCall:3, StatefulPartitionedCall:2, StatefulPartitionedCall:1, StatefulPartitionedCall:0
+Warning: RESIZE_NEAREST_NEIGHBOR 'fpn_cells/cell_0/fnode0/resample_1_4_5/ResizeNearestNeighbor' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 4, 4, 112], ofm_shape=[1, 7, 7, 112] and align_corners=False
+Warning: RESIZE_NEAREST_NEIGHBOR 'fpn_cells/cell_1/fnode0/resample_1_4_5/ResizeNearestNeighbor' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 4, 4, 112], ofm_shape=[1, 7, 7, 112] and align_corners=False
+Warning: RESIZE_NEAREST_NEIGHBOR 'fpn_cells/cell_2/fnode0/resample_1_4_5/ResizeNearestNeighbor' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 4, 4, 112], ofm_shape=[1, 7, 7, 112] and align_corners=False
+Warning: RESIZE_NEAREST_NEIGHBOR 'fpn_cells/cell_3/fnode0/resample_1_4_5/ResizeNearestNeighbor' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 4, 4, 112], ofm_shape=[1, 7, 7, 112] and align_corners=False
+Warning: RESIZE_NEAREST_NEIGHBOR 'fpn_cells/cell_4/fnode0/resample_1_4_5/ResizeNearestNeighbor' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 4, 4, 112], ofm_shape=[1, 7, 7, 112] and align_corners=False
+Warning: Custom operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+
+Network summary for efficientdet-lite2-int8
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                381.56 KiB
+Total DRAM used                              23614.23 KiB
+
+CPU operators = 8 (2.2%)
+NPU operators = 348 (97.8%)
+
+Average SRAM bandwidth                           1.25 GB/s
+Input   SRAM bandwidth                          94.46 MB/batch
+Weight  SRAM bandwidth                          52.08 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                         146.92 MB/batch
+Total   SRAM bandwidth            per input    146.92 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.35 GB/s
+Input   DRAM bandwidth                          57.98 MB/batch
+Weight  DRAM bandwidth                          12.90 MB/batch
+Output  DRAM bandwidth                          86.85 MB/batch
+Total   DRAM bandwidth                         157.85 MB/batch
+Total   DRAM bandwidth            per input    157.85 MB/inference (batch size 1)
+
+Neural network macs                        3397229406 MACs/batch
+Network Tops/s                                   0.06 Tops/s
+
+NPU cycles                                   68650890 cycles/batch
+SRAM Access cycles                           13878802 cycles/batch
+DRAM Access cycles                           88993315 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                117263586 cycles/batch
+
+Batch Inference time               117.26 ms,    8.53 inferences/s (batch size 1)
+

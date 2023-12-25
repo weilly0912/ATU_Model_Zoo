@@ -1,0 +1,58 @@
+Warning: STRIDED_SLICE 'model/tf_focus/strided_slice' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 2 2 1]
+Warning: STRIDED_SLICE 'model/tf_focus/strided_slice_1' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 2 2 1]
+Warning: STRIDED_SLICE 'model/tf_focus/strided_slice_2' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 2 2 1]
+Warning: STRIDED_SLICE 'model/tf_focus/strided_slice_3' is not supported on the NPU. Placing on CPU instead
+ - All Strides values must be 1
+   Op has strides values [1 2 2 1]
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+
+Network summary for yolov5m-int8
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                384.00 KiB
+Total DRAM used                              25539.06 KiB
+
+CPU operators = 5 (2.1%)
+NPU operators = 229 (97.9%)
+
+Average SRAM bandwidth                           1.66 GB/s
+Input   SRAM bandwidth                         171.40 MB/batch
+Weight  SRAM bandwidth                         275.11 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                         446.68 MB/batch
+Total   SRAM bandwidth            per input    446.68 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.85 GB/s
+Input   DRAM bandwidth                         264.26 MB/batch
+Weight  DRAM bandwidth                          87.31 MB/batch
+Output  DRAM bandwidth                         145.78 MB/batch
+Total   DRAM bandwidth                         497.43 MB/batch
+Total   DRAM bandwidth            per input    497.43 MB/inference (batch size 1)
+
+Neural network macs                       26176958400 MACs/batch
+Network Tops/s                                   0.19 Tops/s
+
+NPU cycles                                  187013376 cycles/batch
+SRAM Access cycles                           14335719 cycles/batch
+DRAM Access cycles                          198176152 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                269095573 cycles/batch
+
+Batch Inference time               269.10 ms,    3.72 inferences/s (batch size 1)
+

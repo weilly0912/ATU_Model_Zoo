@@ -1,0 +1,75 @@
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'tfl.dequantize'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: tfl.dequantize
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'Sigmoid1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Sigmoid1
+Warning: Unsupported TensorFlow Lite semantics for CUSTOM 'StatefulPartitionedCall:3'. Placing on CPU instead
+ - Input(s) and Output tensors must not be dynamic
+   Op has dynamic tensor(s): StatefulPartitionedCall:3, StatefulPartitionedCall:2, StatefulPartitionedCall:1, StatefulPartitionedCall:0
+Warning: RESIZE_NEAREST_NEIGHBOR 'fpn_cells/cell_0/fnode0/resample_1_4_5/ResizeNearestNeighbor' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 3, 3, 64], ofm_shape=[1, 5, 5, 64] and align_corners=False
+Warning: RESIZE_NEAREST_NEIGHBOR 'fpn_cells/cell_1/fnode0/resample_1_4_5/ResizeNearestNeighbor' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 3, 3, 64], ofm_shape=[1, 5, 5, 64] and align_corners=False
+Warning: RESIZE_NEAREST_NEIGHBOR 'fpn_cells/cell_2/fnode0/resample_1_4_5/ResizeNearestNeighbor' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 3, 3, 64], ofm_shape=[1, 5, 5, 64] and align_corners=False
+Warning: Custom operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+
+Network summary for efficientdet-lite0-int8
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                381.95 KiB
+Total DRAM used                              12591.81 KiB
+
+CPU operators = 6 (2.3%)
+NPU operators = 260 (97.7%)
+
+Average SRAM bandwidth                           1.37 GB/s
+Input   SRAM bandwidth                          40.35 MB/batch
+Weight  SRAM bandwidth                          19.35 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          60.02 MB/batch
+Total   SRAM bandwidth            per input     60.02 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.16 GB/s
+Input   DRAM bandwidth                          13.91 MB/batch
+Weight  DRAM bandwidth                           3.76 MB/batch
+Output  DRAM bandwidth                          33.23 MB/batch
+Total   DRAM bandwidth                          50.91 MB/batch
+Total   DRAM bandwidth            per input     50.91 MB/inference (batch size 1)
+
+Neural network macs                         984269252 MACs/batch
+Network Tops/s                                   0.04 Tops/s
+
+NPU cycles                                   26594664 cycles/batch
+SRAM Access cycles                            6673722 cycles/batch
+DRAM Access cycles                           29750161 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 43798646 cycles/batch
+
+Batch Inference time                43.80 ms,   22.83 inferences/s (batch size 1)
+
