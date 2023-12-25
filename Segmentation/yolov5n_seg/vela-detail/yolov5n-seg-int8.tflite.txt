@@ -1,0 +1,45 @@
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'StatefulPartitionedCall:11'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model/tf_segment/transpose/perm
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+
+Network summary for yolov5n-seg-int8
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                384.00 KiB
+Total DRAM used                               9420.08 KiB
+
+CPU operators = 1 (0.3%)
+NPU operators = 285 (99.7%)
+
+Average SRAM bandwidth                           0.49 GB/s
+Input   SRAM bandwidth                          41.68 MB/batch
+Weight  SRAM bandwidth                          39.83 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          81.57 MB/batch
+Total   SRAM bandwidth            per input     81.57 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.20 GB/s
+Input   DRAM bandwidth                          97.93 MB/batch
+Weight  DRAM bandwidth                           1.79 MB/batch
+Output  DRAM bandwidth                          99.83 MB/batch
+Total   DRAM bandwidth                         199.57 MB/batch
+Total   DRAM bandwidth            per input    199.57 MB/inference (batch size 1)
+
+Neural network macs                        3577679600 MACs/batch
+Network Tops/s                                   0.04 Tops/s
+
+NPU cycles                                   80018501 cycles/batch
+SRAM Access cycles                            4653896 cycles/batch
+DRAM Access cycles                          146687503 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                166436896 cycles/batch
+
+Batch Inference time               166.44 ms,    6.01 inferences/s (batch size 1)
+

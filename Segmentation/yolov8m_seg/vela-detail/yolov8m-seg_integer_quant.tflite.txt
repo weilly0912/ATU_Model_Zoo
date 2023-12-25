@@ -1,0 +1,1438 @@
+Warning: Unsupported TensorFlow Lite semantics for PAD 'model_1/tf.compat.v1.pad/Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: serving_default_images:0, model_1/tf.compat.v1.pad/Pad
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution/convolution;Const_71'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.pad/Pad, model_1/tf.math.add/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution/convolution;Const_71
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution/convolution;Const_71, model_1/tf.math.sigmoid/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_2/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution/convolution;Const_71, model_1/tf.math.sigmoid/Sigmoid, model_1/tf.math.multiply_2/Mul
+Warning: Unsupported TensorFlow Lite semantics for PAD 'model_1/tf.compat.v1.pad_1/Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_2/Mul, model_1/tf.compat.v1.pad_1/Pad
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_1/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_1/convolution;Const_68'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.pad_1/Pad, model_1/tf.math.add_1/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_1/convolution;Const_68
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_1/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_1/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_1/convolution;Const_68, model_1/tf.math.sigmoid_1/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_5/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_1/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_1/convolution;Const_68, model_1/tf.math.sigmoid_1/Sigmoid, model_1/tf.math.multiply_5/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_2/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_2/convolution;Const_66'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_5/Mul, model_1/tf.math.add_2/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_2/convolution;Const_66
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_2/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_2/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_2/convolution;Const_66, model_1/tf.math.sigmoid_2/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_8/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_2/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_2/convolution;Const_66, model_1/tf.math.sigmoid_2/Sigmoid, model_1/tf.math.multiply_8/Mul
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice/StridedSlice1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_8/Mul, model_1/tf.strided_slice/StridedSlice1
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_1/StridedSlice3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_8/Mul, model_1/tf.strided_slice_1/StridedSlice3
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_3/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_3/convolution;Const_62'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_1/StridedSlice3, model_1/tf.math.add_3/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_3/convolution;Const_62
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_3/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_3/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_3/convolution;Const_62, model_1/tf.math.sigmoid_3/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_11/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_3/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_3/convolution;Const_62, model_1/tf.math.sigmoid_3/Sigmoid, model_1/tf.math.multiply_11/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_4/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_4/convolution;Const_60'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_11/Mul, model_1/tf.math.add_4/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_4/convolution;Const_60
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_4/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_4/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_4/convolution;Const_60, model_1/tf.math.sigmoid_4/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_14/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_4/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_4/convolution;Const_60, model_1/tf.math.sigmoid_4/Sigmoid, model_1/tf.math.multiply_14/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_5/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_1/StridedSlice3, model_1/tf.math.multiply_14/Mul, model_1/tf.math.add_5/Add
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_6/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_5/convolution;Const_58'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_5/Add, model_1/tf.math.add_6/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_5/convolution;Const_58
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_5/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_6/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_5/convolution;Const_58, model_1/tf.math.sigmoid_5/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_19/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_6/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_5/convolution;Const_58, model_1/tf.math.sigmoid_5/Sigmoid, model_1/tf.math.multiply_19/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_7/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_6/convolution;Const_56'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_19/Mul, model_1/tf.math.add_7/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_6/convolution;Const_56
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_6/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_7/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_6/convolution;Const_56, model_1/tf.math.sigmoid_6/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_22/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_7/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_6/convolution;Const_56, model_1/tf.math.sigmoid_6/Sigmoid, model_1/tf.math.multiply_22/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_8/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_5/Add, model_1/tf.math.multiply_22/Mul, model_1/tf.math.add_8/Add
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_1/StridedSlice3, model_1/tf.math.add_5/Add, model_1/tf.concat/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_9/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_7/convolution;Const_52'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat/concat, model_1/tf.math.add_9/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_7/convolution;Const_52
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_7/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_9/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_7/convolution;Const_52, model_1/tf.math.sigmoid_7/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_27/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_9/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_7/convolution;Const_52, model_1/tf.math.sigmoid_7/Sigmoid, model_1/tf.math.multiply_27/Mul
+Warning: Unsupported TensorFlow Lite semantics for PAD 'model_1/tf.compat.v1.pad_2/Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_27/Mul, model_1/tf.compat.v1.pad_2/Pad
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_10/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_8/convolution;Const_49'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.pad_2/Pad, model_1/tf.math.add_10/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_8/convolution;Const_49
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_8/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_10/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_8/convolution;Const_49, model_1/tf.math.sigmoid_8/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_30/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_10/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_8/convolution;Const_49, model_1/tf.math.sigmoid_8/Sigmoid, model_1/tf.math.multiply_30/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_11/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_9/convolution;Const_47'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_30/Mul, model_1/tf.math.add_11/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_9/convolution;Const_47
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_9/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_11/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_9/convolution;Const_47, model_1/tf.math.sigmoid_9/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_33/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_11/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_9/convolution;Const_47, model_1/tf.math.sigmoid_9/Sigmoid, model_1/tf.math.multiply_33/Mul
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_2/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_33/Mul, model_1/tf.strided_slice_2/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_3/StridedSlice1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_33/Mul, model_1/tf.strided_slice_3/StridedSlice1
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_12/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_10/convolution;Const_43'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_3/StridedSlice1, model_1/tf.math.add_12/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_10/convolution;Const_43
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_10/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_12/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_10/convolution;Const_43, model_1/tf.math.sigmoid_10/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_36/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_12/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_10/convolution;Const_43, model_1/tf.math.sigmoid_10/Sigmoid, model_1/tf.math.multiply_36/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_13/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_11/convolution;Const_41'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_36/Mul, model_1/tf.math.add_13/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_11/convolution;Const_41
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_11/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_13/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_11/convolution;Const_41, model_1/tf.math.sigmoid_11/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_39/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_13/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_11/convolution;Const_41, model_1/tf.math.sigmoid_11/Sigmoid, model_1/tf.math.multiply_39/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_14/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_3/StridedSlice1, model_1/tf.math.multiply_39/Mul, model_1/tf.math.add_14/Add
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_15/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_12/convolution;Const_39'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_14/Add, model_1/tf.math.add_15/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_12/convolution;Const_39
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_12/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_15/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_12/convolution;Const_39, model_1/tf.math.sigmoid_12/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_44/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_15/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_12/convolution;Const_39, model_1/tf.math.sigmoid_12/Sigmoid, model_1/tf.math.multiply_44/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_16/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_13/convolution;Const_37'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_44/Mul, model_1/tf.math.add_16/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_13/convolution;Const_37
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_13/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_16/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_13/convolution;Const_37, model_1/tf.math.sigmoid_13/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_47/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_16/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_13/convolution;Const_37, model_1/tf.math.sigmoid_13/Sigmoid, model_1/tf.math.multiply_47/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_17/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_14/Add, model_1/tf.math.multiply_47/Mul, model_1/tf.math.add_17/Add
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_18/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_14/convolution;Const_35'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_17/Add, model_1/tf.math.add_18/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_14/convolution;Const_35
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_14/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_18/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_14/convolution;Const_35, model_1/tf.math.sigmoid_14/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_52/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_18/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_14/convolution;Const_35, model_1/tf.math.sigmoid_14/Sigmoid, model_1/tf.math.multiply_52/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_19/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_15/convolution;Const_33'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_52/Mul, model_1/tf.math.add_19/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_15/convolution;Const_33
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_15/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_19/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_15/convolution;Const_33, model_1/tf.math.sigmoid_15/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_55/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_19/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_15/convolution;Const_33, model_1/tf.math.sigmoid_15/Sigmoid, model_1/tf.math.multiply_55/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_20/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_17/Add, model_1/tf.math.multiply_55/Mul, model_1/tf.math.add_20/Add
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_21/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_16/convolution;Const_31'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_20/Add, model_1/tf.math.add_21/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_16/convolution;Const_31
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_16/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_21/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_16/convolution;Const_31, model_1/tf.math.sigmoid_16/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_60/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_21/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_16/convolution;Const_31, model_1/tf.math.sigmoid_16/Sigmoid, model_1/tf.math.multiply_60/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_22/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_17/convolution;Const_29'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_60/Mul, model_1/tf.math.add_22/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_17/convolution;Const_29
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_17/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_22/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_17/convolution;Const_29, model_1/tf.math.sigmoid_17/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_63/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_22/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_17/convolution;Const_29, model_1/tf.math.sigmoid_17/Sigmoid, model_1/tf.math.multiply_63/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_23/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_20/Add, model_1/tf.math.multiply_63/Mul, model_1/tf.math.add_23/Add
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_1/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_3/StridedSlice1, model_1/tf.math.add_14/Add, model_1/tf.concat_1/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_24/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_18/convolution;Const_25'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_1/concat, model_1/tf.math.add_24/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_18/convolution;Const_25
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_18/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_24/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_18/convolution;Const_25, model_1/tf.math.sigmoid_18/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_68/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_24/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_18/convolution;Const_25, model_1/tf.math.sigmoid_18/Sigmoid, model_1/tf.math.multiply_68/Mul
+Warning: Unsupported TensorFlow Lite semantics for PAD 'model_1/tf.compat.v1.pad_3/Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_68/Mul, model_1/tf.compat.v1.pad_3/Pad
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_25/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_19/convolution;Const_22'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.pad_3/Pad, model_1/tf.math.add_25/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_19/convolution;Const_22
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_19/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_25/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_19/convolution;Const_22, model_1/tf.math.sigmoid_19/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_71/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_25/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_19/convolution;Const_22, model_1/tf.math.sigmoid_19/Sigmoid, model_1/tf.math.multiply_71/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_26/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_20/convolution;Const_20'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_71/Mul, model_1/tf.math.add_26/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_20/convolution;Const_20
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_20/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_26/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_20/convolution;Const_20, model_1/tf.math.sigmoid_20/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_74/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_26/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_20/convolution;Const_20, model_1/tf.math.sigmoid_20/Sigmoid, model_1/tf.math.multiply_74/Mul
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_4/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_74/Mul, model_1/tf.strided_slice_4/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_5/StridedSlice1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_74/Mul, model_1/tf.strided_slice_5/StridedSlice1
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_27/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_21/convolution;Const_16'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_5/StridedSlice1, model_1/tf.math.add_27/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_21/convolution;Const_16
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_21/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_27/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_21/convolution;Const_16, model_1/tf.math.sigmoid_21/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_77/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_27/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_21/convolution;Const_16, model_1/tf.math.sigmoid_21/Sigmoid, model_1/tf.math.multiply_77/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_28/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_22/convolution;Const_14'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_77/Mul, model_1/tf.math.add_28/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_22/convolution;Const_14
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_22/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_28/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_22/convolution;Const_14, model_1/tf.math.sigmoid_22/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_80/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_28/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_22/convolution;Const_14, model_1/tf.math.sigmoid_22/Sigmoid, model_1/tf.math.multiply_80/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_29/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_5/StridedSlice1, model_1/tf.math.multiply_80/Mul, model_1/tf.math.add_29/Add
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_30/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_23/convolution;Const_12'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_29/Add, model_1/tf.math.add_30/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_23/convolution;Const_12
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_23/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_30/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_23/convolution;Const_12, model_1/tf.math.sigmoid_23/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_85/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_30/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_23/convolution;Const_12, model_1/tf.math.sigmoid_23/Sigmoid, model_1/tf.math.multiply_85/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_31/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_24/convolution;Const_10'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_85/Mul, model_1/tf.math.add_31/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_24/convolution;Const_10
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_24/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_31/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_24/convolution;Const_10, model_1/tf.math.sigmoid_24/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_88/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_31/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_24/convolution;Const_10, model_1/tf.math.sigmoid_24/Sigmoid, model_1/tf.math.multiply_88/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_32/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_29/Add, model_1/tf.math.multiply_88/Mul, model_1/tf.math.add_32/Add
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_33/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_25/convolution;Const_8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_32/Add, model_1/tf.math.add_33/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_25/convolution;Const_8
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_25/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_33/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_25/convolution;Const_8, model_1/tf.math.sigmoid_25/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_93/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_33/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_25/convolution;Const_8, model_1/tf.math.sigmoid_25/Sigmoid, model_1/tf.math.multiply_93/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_34/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_26/convolution;Const_6'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_93/Mul, model_1/tf.math.add_34/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_26/convolution;Const_6
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_26/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_34/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_26/convolution;Const_6, model_1/tf.math.sigmoid_26/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_96/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_34/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_26/convolution;Const_6, model_1/tf.math.sigmoid_26/Sigmoid, model_1/tf.math.multiply_96/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_35/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_32/Add, model_1/tf.math.multiply_96/Mul, model_1/tf.math.add_35/Add
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_36/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_27/convolution;Const_4'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_35/Add, model_1/tf.math.add_36/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_27/convolution;Const_4
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_27/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_36/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_27/convolution;Const_4, model_1/tf.math.sigmoid_27/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_101/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_36/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_27/convolution;Const_4, model_1/tf.math.sigmoid_27/Sigmoid, model_1/tf.math.multiply_101/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_37/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_28/convolution;Const_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_101/Mul, model_1/tf.math.add_37/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_28/convolution;Const_2
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_28/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_37/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_28/convolution;Const_2, model_1/tf.math.sigmoid_28/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_104/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_37/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_28/convolution;Const_2, model_1/tf.math.sigmoid_28/Sigmoid, model_1/tf.math.multiply_104/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_38/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_35/Add, model_1/tf.math.multiply_104/Mul, model_1/tf.math.add_38/Add
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_2/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_5/StridedSlice1, model_1/tf.math.add_29/Add, model_1/tf.concat_2/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_39/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_29/convolution;Const_240'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_2/concat, model_1/tf.math.add_39/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_29/convolution;Const_240
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_29/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_39/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_29/convolution;Const_240, model_1/tf.math.sigmoid_29/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_109/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_39/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_29/convolution;Const_240, model_1/tf.math.sigmoid_29/Sigmoid, model_1/tf.math.multiply_109/Mul
+Warning: Unsupported TensorFlow Lite semantics for PAD 'model_1/tf.compat.v1.pad_4/Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_109/Mul, model_1/tf.compat.v1.pad_4/Pad
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_40/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_30/convolution;Const_237'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.pad_4/Pad, model_1/tf.math.add_40/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_30/convolution;Const_237
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_30/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_40/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_30/convolution;Const_237, model_1/tf.math.sigmoid_30/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_112/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_40/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_30/convolution;Const_237, model_1/tf.math.sigmoid_30/Sigmoid, model_1/tf.math.multiply_112/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_41/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_31/convolution;Const_235'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_112/Mul, model_1/tf.math.add_41/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_31/convolution;Const_235
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_31/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_41/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_31/convolution;Const_235, model_1/tf.math.sigmoid_31/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_115/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_41/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_31/convolution;Const_235, model_1/tf.math.sigmoid_31/Sigmoid, model_1/tf.math.multiply_115/Mul
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_6/StridedSlice1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_115/Mul, model_1/tf.strided_slice_6/StridedSlice1
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_7/StridedSlice1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_115/Mul, model_1/tf.strided_slice_7/StridedSlice1
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_42/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_32/convolution;Const_231'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_7/StridedSlice1, model_1/tf.math.add_42/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_32/convolution;Const_231
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_32/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_42/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_32/convolution;Const_231, model_1/tf.math.sigmoid_32/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_118/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_42/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_32/convolution;Const_231, model_1/tf.math.sigmoid_32/Sigmoid, model_1/tf.math.multiply_118/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_43/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_33/convolution;Const_229'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_118/Mul, model_1/tf.math.add_43/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_33/convolution;Const_229
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_33/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_43/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_33/convolution;Const_229, model_1/tf.math.sigmoid_33/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_121/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_43/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_33/convolution;Const_229, model_1/tf.math.sigmoid_33/Sigmoid, model_1/tf.math.multiply_121/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_44/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_7/StridedSlice1, model_1/tf.math.multiply_121/Mul, model_1/tf.math.add_44/Add
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_45/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_34/convolution;Const_227'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_44/Add, model_1/tf.math.add_45/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_34/convolution;Const_227
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_34/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_45/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_34/convolution;Const_227, model_1/tf.math.sigmoid_34/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_126/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_45/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_34/convolution;Const_227, model_1/tf.math.sigmoid_34/Sigmoid, model_1/tf.math.multiply_126/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_46/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_35/convolution;Const_225'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_126/Mul, model_1/tf.math.add_46/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_35/convolution;Const_225
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_35/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_46/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_35/convolution;Const_225, model_1/tf.math.sigmoid_35/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_129/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_46/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_35/convolution;Const_225, model_1/tf.math.sigmoid_35/Sigmoid, model_1/tf.math.multiply_129/Mul
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_47/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_44/Add, model_1/tf.math.multiply_129/Mul, model_1/tf.math.add_47/Add
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_3/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_7/StridedSlice1, model_1/tf.math.add_44/Add, model_1/tf.concat_3/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_48/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_36/convolution;Const_221'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_3/concat, model_1/tf.math.add_48/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_36/convolution;Const_221
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_36/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_48/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_36/convolution;Const_221, model_1/tf.math.sigmoid_36/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_134/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_48/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_36/convolution;Const_221, model_1/tf.math.sigmoid_36/Sigmoid, model_1/tf.math.multiply_134/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_49/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_37/convolution;Const_219'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_134/Mul, model_1/tf.math.add_49/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_37/convolution;Const_219
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_37/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_49/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_37/convolution;Const_219, model_1/tf.math.sigmoid_37/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_137/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_49/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_37/convolution;Const_219, model_1/tf.math.sigmoid_37/Sigmoid, model_1/tf.math.multiply_137/Mul
+Warning: Unsupported TensorFlow Lite semantics for MAX_POOL_2D 'model_1/tf.compat.v1.nn.pool/max_pool'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_137/Mul, model_1/tf.compat.v1.nn.pool/max_pool
+Warning: Unsupported TensorFlow Lite semantics for MAX_POOL_2D 'model_1/tf.compat.v1.nn.pool_1/max_pool'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.nn.pool/max_pool, model_1/tf.compat.v1.nn.pool_1/max_pool
+Warning: Unsupported TensorFlow Lite semantics for MAX_POOL_2D 'model_1/tf.compat.v1.nn.pool_2/max_pool'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.nn.pool_1/max_pool, model_1/tf.compat.v1.nn.pool_2/max_pool
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_4/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.nn.pool/max_pool, model_1/tf.compat.v1.nn.pool_1/max_pool, model_1/tf.concat_4/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_50/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_38/convolution;Const_217'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_4/concat, model_1/tf.math.add_50/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_38/convolution;Const_217
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_38/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_50/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_38/convolution;Const_217, model_1/tf.math.sigmoid_38/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_140/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_50/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_38/convolution;Const_217, model_1/tf.math.sigmoid_38/Sigmoid, model_1/tf.math.multiply_140/Mul
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_NEAREST_NEIGHBOR 'model_1/lambda/wa/model.10/Resize'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_140/Mul, model_1/lambda/wa/model.10/Resize
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_5/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_109/Mul, model_1/tf.concat_5/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_51/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_39/convolution;Const_215'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_5/concat, model_1/tf.math.add_51/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_39/convolution;Const_215
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_39/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_51/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_39/convolution;Const_215, model_1/tf.math.sigmoid_39/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_143/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_51/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_39/convolution;Const_215, model_1/tf.math.sigmoid_39/Sigmoid, model_1/tf.math.multiply_143/Mul
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_8/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_143/Mul, model_1/tf.strided_slice_8/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_9/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_143/Mul, model_1/tf.strided_slice_9/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_52/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_40/convolution;Const_211'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_9/StridedSlice, model_1/tf.math.add_52/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_40/convolution;Const_211
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_40/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_52/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_40/convolution;Const_211, model_1/tf.math.sigmoid_40/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_146/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_52/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_40/convolution;Const_211, model_1/tf.math.sigmoid_40/Sigmoid, model_1/tf.math.multiply_146/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_53/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_41/convolution;Const_209'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_146/Mul, model_1/tf.math.add_53/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_41/convolution;Const_209
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_41/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_53/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_41/convolution;Const_209, model_1/tf.math.sigmoid_41/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_149/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_53/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_41/convolution;Const_209, model_1/tf.math.sigmoid_41/Sigmoid, model_1/tf.math.multiply_149/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_54/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_42/convolution;Const_207'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_149/Mul, model_1/tf.math.add_54/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_42/convolution;Const_207
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_42/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_54/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_42/convolution;Const_207, model_1/tf.math.sigmoid_42/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_152/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_54/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_42/convolution;Const_207, model_1/tf.math.sigmoid_42/Sigmoid, model_1/tf.math.multiply_152/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_55/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_43/convolution;Const_205'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_152/Mul, model_1/tf.math.add_55/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_43/convolution;Const_205
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_43/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_55/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_43/convolution;Const_205, model_1/tf.math.sigmoid_43/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_155/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_55/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_43/convolution;Const_205, model_1/tf.math.sigmoid_43/Sigmoid, model_1/tf.math.multiply_155/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_6/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_9/StridedSlice, model_1/tf.math.multiply_149/Mul, model_1/tf.concat_6/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_56/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_44/convolution;Const_201'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_6/concat, model_1/tf.math.add_56/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_44/convolution;Const_201
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_44/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_56/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_44/convolution;Const_201, model_1/tf.math.sigmoid_44/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_158/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_56/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_44/convolution;Const_201, model_1/tf.math.sigmoid_44/Sigmoid, model_1/tf.math.multiply_158/Mul
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_NEAREST_NEIGHBOR 'model_1/lambda_1/wa/model.13/Resize'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_158/Mul, model_1/lambda_1/wa/model.13/Resize
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_7/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_68/Mul, model_1/tf.concat_7/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_57/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_45/convolution;Const_199'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_7/concat, model_1/tf.math.add_57/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_45/convolution;Const_199
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_45/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_57/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_45/convolution;Const_199, model_1/tf.math.sigmoid_45/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_161/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_57/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_45/convolution;Const_199, model_1/tf.math.sigmoid_45/Sigmoid, model_1/tf.math.multiply_161/Mul
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_10/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_161/Mul, model_1/tf.strided_slice_10/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_11/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_161/Mul, model_1/tf.strided_slice_11/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_58/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_46/convolution;Const_195'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_11/StridedSlice, model_1/tf.math.add_58/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_46/convolution;Const_195
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_46/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_58/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_46/convolution;Const_195, model_1/tf.math.sigmoid_46/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_164/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_58/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_46/convolution;Const_195, model_1/tf.math.sigmoid_46/Sigmoid, model_1/tf.math.multiply_164/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_59/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_47/convolution;Const_193'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_164/Mul, model_1/tf.math.add_59/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_47/convolution;Const_193
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_47/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_59/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_47/convolution;Const_193, model_1/tf.math.sigmoid_47/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_167/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_59/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_47/convolution;Const_193, model_1/tf.math.sigmoid_47/Sigmoid, model_1/tf.math.multiply_167/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_60/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_48/convolution;Const_191'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_167/Mul, model_1/tf.math.add_60/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_48/convolution;Const_191
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_48/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_60/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_48/convolution;Const_191, model_1/tf.math.sigmoid_48/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_170/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_60/Add;model_1/tf.nn.convolution_49/convolution;model_1/tf.nn.convolution_48/convolution;Const_191, model_1/tf.math.sigmoid_48/Sigmoid, model_1/tf.math.multiply_170/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_61/Add;model_1/tf.nn.convolution_49/convolution;Const_189'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_170/Mul, model_1/tf.math.add_61/Add;model_1/tf.nn.convolution_49/convolution;Const_189
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_49/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_61/Add;model_1/tf.nn.convolution_49/convolution;Const_189, model_1/tf.math.sigmoid_49/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_173/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_61/Add;model_1/tf.nn.convolution_49/convolution;Const_189, model_1/tf.math.sigmoid_49/Sigmoid, model_1/tf.math.multiply_173/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_8/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_11/StridedSlice, model_1/tf.math.multiply_167/Mul, model_1/tf.concat_8/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_62/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_50/convolution;Const_185'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_8/concat, model_1/tf.math.add_62/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_50/convolution;Const_185
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_50/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_62/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_50/convolution;Const_185, model_1/tf.math.sigmoid_50/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_176/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_62/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_50/convolution;Const_185, model_1/tf.math.sigmoid_50/Sigmoid, model_1/tf.math.multiply_176/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_66/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_54/convolution;Const_139'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_176/Mul, model_1/tf.math.add_66/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_54/convolution;Const_139
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_54/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_66/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_54/convolution;Const_139, model_1/tf.math.sigmoid_54/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_188/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_66/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_54/convolution;Const_139, model_1/tf.math.sigmoid_54/Sigmoid, model_1/tf.math.multiply_188/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_70/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_57/convolution;Const_127'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_188/Mul, model_1/tf.math.add_70/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_57/convolution;Const_127
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_57/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_70/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_57/convolution;Const_127, model_1/tf.math.sigmoid_57/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_197/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_70/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_57/convolution;Const_127, model_1/tf.math.sigmoid_57/Sigmoid, model_1/tf.math.multiply_197/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_75/Add;model_1/tf.nn.convolution_62/convolution;Const_115'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_197/Mul, model_1/tf.math.add_75/Add;model_1/tf.nn.convolution_62/convolution;Const_115
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_67/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_55/convolution;Const_140'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_176/Mul, model_1/tf.math.add_67/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_55/convolution;Const_140
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_55/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_67/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_55/convolution;Const_140, model_1/tf.math.sigmoid_55/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_191/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_67/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_55/convolution;Const_140, model_1/tf.math.sigmoid_55/Sigmoid, model_1/tf.math.multiply_191/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_71/Add;model_1/tf.nn.convolution_58/convolution;Const_128'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_191/Mul, model_1/tf.math.add_71/Add;model_1/tf.nn.convolution_58/convolution;Const_128
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_58/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_71/Add;model_1/tf.nn.convolution_58/convolution;Const_128, model_1/tf.math.sigmoid_58/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_200/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_71/Add;model_1/tf.nn.convolution_58/convolution;Const_128, model_1/tf.math.sigmoid_58/Sigmoid, model_1/tf.math.multiply_200/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_76/Add;model_1/tf.nn.convolution_63/convolution;Const_116'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_200/Mul, model_1/tf.math.add_76/Add;model_1/tf.nn.convolution_63/convolution;Const_116
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_587/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_76/Add;model_1/tf.nn.convolution_63/convolution;Const_116, model_1/tf.concat_587/concat
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'model_1/tf.compat.v1.transpose_1155/transpose'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_587/concat, model_1/tf.compat.v1.transpose/transpose/perm, model_1/tf.compat.v1.transpose_1155/transpose
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'model_1/tf.reshape_1/Reshape'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.transpose_1155/transpose, model_1/tf.reshape_1/Reshape
+Warning: Unsupported TensorFlow Lite semantics for PAD 'model_1/tf.compat.v1.pad_5/Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_176/Mul, model_1/tf.compat.v1.pad_5/Pad
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_63/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_51/convolution;Const_182'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.pad_5/Pad, model_1/tf.math.add_63/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_51/convolution;Const_182
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_51/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_63/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_51/convolution;Const_182, model_1/tf.math.sigmoid_51/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_179/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_63/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_51/convolution;Const_182, model_1/tf.math.sigmoid_51/Sigmoid, model_1/tf.math.multiply_179/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_9/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_158/Mul, model_1/tf.concat_9/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_72/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_59/convolution;Const_180'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_9/concat, model_1/tf.math.add_72/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_59/convolution;Const_180
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_59/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_72/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_59/convolution;Const_180, model_1/tf.math.sigmoid_59/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_203/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_72/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_59/convolution;Const_180, model_1/tf.math.sigmoid_59/Sigmoid, model_1/tf.math.multiply_203/Mul
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_12/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_203/Mul, model_1/tf.strided_slice_12/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_13/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_203/Mul, model_1/tf.strided_slice_13/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_78/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_65/convolution;Const_176'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_13/StridedSlice, model_1/tf.math.add_78/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_65/convolution;Const_176
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_62/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_78/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_65/convolution;Const_176, model_1/tf.math.sigmoid_62/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_212/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_78/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_65/convolution;Const_176, model_1/tf.math.sigmoid_62/Sigmoid, model_1/tf.math.multiply_212/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_79/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_66/convolution;Const_174'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_212/Mul, model_1/tf.math.add_79/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_66/convolution;Const_174
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_63/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_79/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_66/convolution;Const_174, model_1/tf.math.sigmoid_63/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_215/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_79/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_66/convolution;Const_174, model_1/tf.math.sigmoid_63/Sigmoid, model_1/tf.math.multiply_215/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_80/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_67/convolution;Const_172'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_215/Mul, model_1/tf.math.add_80/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_67/convolution;Const_172
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_64/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_80/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_67/convolution;Const_172, model_1/tf.math.sigmoid_64/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_218/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_80/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_67/convolution;Const_172, model_1/tf.math.sigmoid_64/Sigmoid, model_1/tf.math.multiply_218/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_81/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_68/convolution;Const_170'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_218/Mul, model_1/tf.math.add_81/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_68/convolution;Const_170
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_65/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_81/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_68/convolution;Const_170, model_1/tf.math.sigmoid_65/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_221/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_81/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_68/convolution;Const_170, model_1/tf.math.sigmoid_65/Sigmoid, model_1/tf.math.multiply_221/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_588/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_13/StridedSlice, model_1/tf.math.multiply_215/Mul, model_1/tf.concat_588/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_82/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_69/convolution;Const_166'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_588/concat, model_1/tf.math.add_82/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_69/convolution;Const_166
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_66/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_82/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_69/convolution;Const_166, model_1/tf.math.sigmoid_66/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_224/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_82/Add;model_1/tf.nn.convolution_70/convolution;model_1/tf.nn.convolution_69/convolution;Const_166, model_1/tf.math.sigmoid_66/Sigmoid, model_1/tf.math.multiply_224/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_85/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_72/convolution;Const_135'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_224/Mul, model_1/tf.math.add_85/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_72/convolution;Const_135
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_69/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_85/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_72/convolution;Const_135, model_1/tf.math.sigmoid_69/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_233/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_85/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_72/convolution;Const_135, model_1/tf.math.sigmoid_69/Sigmoid, model_1/tf.math.multiply_233/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_88/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_75/convolution;Const_123'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_233/Mul, model_1/tf.math.add_88/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_75/convolution;Const_123
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_72/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_88/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_75/convolution;Const_123, model_1/tf.math.sigmoid_72/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_242/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_88/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_75/convolution;Const_123, model_1/tf.math.sigmoid_72/Sigmoid, model_1/tf.math.multiply_242/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_92/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_79/convolution;Const_112'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_242/Mul, model_1/tf.math.add_92/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_79/convolution;Const_112
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_86/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_73/convolution;Const_136'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_224/Mul, model_1/tf.math.add_86/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_73/convolution;Const_136
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_70/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_86/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_73/convolution;Const_136, model_1/tf.math.sigmoid_70/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_236/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_86/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_73/convolution;Const_136, model_1/tf.math.sigmoid_70/Sigmoid, model_1/tf.math.multiply_236/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_89/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_76/convolution;Const_124'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_236/Mul, model_1/tf.math.add_89/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_76/convolution;Const_124
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_73/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_89/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_76/convolution;Const_124, model_1/tf.math.sigmoid_73/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_245/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_89/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_76/convolution;Const_124, model_1/tf.math.sigmoid_73/Sigmoid, model_1/tf.math.multiply_245/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_93/Add;model_1/tf.nn.convolution_63/convolution;model_1/tf.nn.convolution_80/convolution;Const_111'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_245/Mul, model_1/tf.math.add_93/Add;model_1/tf.nn.convolution_63/convolution;model_1/tf.nn.convolution_80/convolution;Const_111
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_590/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_93/Add;model_1/tf.nn.convolution_63/convolution;model_1/tf.nn.convolution_80/convolution;Const_111, model_1/tf.concat_590/concat
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'model_1/tf.compat.v1.transpose_1157/transpose'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_590/concat, model_1/tf.compat.v1.transpose/transpose/perm, model_1/tf.compat.v1.transpose_1157/transpose
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'model_1/tf.reshape_3/Reshape'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.transpose_1157/transpose, model_1/tf.reshape_3/Reshape
+Warning: Unsupported TensorFlow Lite semantics for PAD 'model_1/tf.compat.v1.pad_6/Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_224/Mul, model_1/tf.compat.v1.pad_6/Pad
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_83/Add;model_1/tf.nn.convolution_70/convolution;Const_163'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.pad_6/Pad, model_1/tf.math.add_83/Add;model_1/tf.nn.convolution_70/convolution;Const_163
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_67/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_83/Add;model_1/tf.nn.convolution_70/convolution;Const_163, model_1/tf.math.sigmoid_67/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_227/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_83/Add;model_1/tf.nn.convolution_70/convolution;Const_163, model_1/tf.math.sigmoid_67/Sigmoid, model_1/tf.math.multiply_227/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_589/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_140/Mul, model_1/tf.concat_589/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_90/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_77/convolution;Const_161'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_589/concat, model_1/tf.math.add_90/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_77/convolution;Const_161
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_74/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_90/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_77/convolution;Const_161, model_1/tf.math.sigmoid_74/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_248/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_90/Add;model_1/tf.nn.convolution_85/convolution;model_1/tf.nn.convolution_77/convolution;Const_161, model_1/tf.math.sigmoid_74/Sigmoid, model_1/tf.math.multiply_248/Mul
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_14/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_248/Mul, model_1/tf.strided_slice_14/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_15/StridedSlice'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_248/Mul, model_1/tf.strided_slice_15/StridedSlice
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_94/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_81/convolution;Const_157'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_15/StridedSlice, model_1/tf.math.add_94/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_81/convolution;Const_157
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_75/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_94/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_81/convolution;Const_157, model_1/tf.math.sigmoid_75/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_251/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_94/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_81/convolution;Const_157, model_1/tf.math.sigmoid_75/Sigmoid, model_1/tf.math.multiply_251/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_95/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_82/convolution;Const_155'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_251/Mul, model_1/tf.math.add_95/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_82/convolution;Const_155
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_76/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_95/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_82/convolution;Const_155, model_1/tf.math.sigmoid_76/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_254/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_95/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_82/convolution;Const_155, model_1/tf.math.sigmoid_76/Sigmoid, model_1/tf.math.multiply_254/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_96/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_83/convolution;Const_153'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_254/Mul, model_1/tf.math.add_96/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_83/convolution;Const_153
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_77/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_96/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_83/convolution;Const_153, model_1/tf.math.sigmoid_77/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_257/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_96/Add;model_1/tf.nn.convolution_84/convolution;model_1/tf.nn.convolution_83/convolution;Const_153, model_1/tf.math.sigmoid_77/Sigmoid, model_1/tf.math.multiply_257/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_97/Add;model_1/tf.nn.convolution_84/convolution;Const_151'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_257/Mul, model_1/tf.math.add_97/Add;model_1/tf.nn.convolution_84/convolution;Const_151
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_78/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_97/Add;model_1/tf.nn.convolution_84/convolution;Const_151, model_1/tf.math.sigmoid_78/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_260/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_97/Add;model_1/tf.nn.convolution_84/convolution;Const_151, model_1/tf.math.sigmoid_78/Sigmoid, model_1/tf.math.multiply_260/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_591/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_15/StridedSlice, model_1/tf.math.multiply_254/Mul, model_1/tf.concat_591/concat
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_98/Add;model_1/tf.nn.convolution_85/convolution;Const_147'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_591/concat, model_1/tf.math.add_98/Add;model_1/tf.nn.convolution_85/convolution;Const_147
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_79/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_98/Add;model_1/tf.nn.convolution_85/convolution;Const_147, model_1/tf.math.sigmoid_79/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_263/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_98/Add;model_1/tf.nn.convolution_85/convolution;Const_147, model_1/tf.math.sigmoid_79/Sigmoid, model_1/tf.math.multiply_263/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_100/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_87/convolution;Const_137'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_263/Mul, model_1/tf.math.add_100/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_87/convolution;Const_137
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_81/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_100/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_87/convolution;Const_137, model_1/tf.math.sigmoid_81/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_269/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_100/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_87/convolution;Const_137, model_1/tf.math.sigmoid_81/Sigmoid, model_1/tf.math.multiply_269/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_103/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_90/convolution;Const_125'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_269/Mul, model_1/tf.math.add_103/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_90/convolution;Const_125
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_84/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_103/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_90/convolution;Const_125, model_1/tf.math.sigmoid_84/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_278/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_103/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_90/convolution;Const_125, model_1/tf.math.sigmoid_84/Sigmoid, model_1/tf.math.multiply_278/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_106/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_93/convolution;Const_114'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_278/Mul, model_1/tf.math.add_106/Add;model_1/tf.nn.convolution_62/convolution;model_1/tf.nn.convolution_93/convolution;Const_114
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_101/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_88/convolution;Const_138'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_263/Mul, model_1/tf.math.add_101/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_88/convolution;Const_138
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_82/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_101/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_88/convolution;Const_138, model_1/tf.math.sigmoid_82/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_272/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_101/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_88/convolution;Const_138, model_1/tf.math.sigmoid_82/Sigmoid, model_1/tf.math.multiply_272/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_104/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_91/convolution;Const_126'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_272/Mul, model_1/tf.math.add_104/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_91/convolution;Const_126
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_85/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_104/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_91/convolution;Const_126, model_1/tf.math.sigmoid_85/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_281/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_104/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_91/convolution;Const_126, model_1/tf.math.sigmoid_85/Sigmoid, model_1/tf.math.multiply_281/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_107/Add;model_1/tf.nn.convolution_63/convolution;model_1/tf.nn.convolution_94/convolution;Const_113'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_281/Mul, model_1/tf.math.add_107/Add;model_1/tf.nn.convolution_63/convolution;model_1/tf.nn.convolution_94/convolution;Const_113
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_592/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_107/Add;model_1/tf.nn.convolution_63/convolution;model_1/tf.nn.convolution_94/convolution;Const_113, model_1/tf.concat_592/concat
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'model_1/tf.compat.v1.transpose_1159/transpose'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_592/concat, model_1/tf.compat.v1.transpose/transpose/perm, model_1/tf.compat.v1.transpose_1159/transpose
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'model_1/tf.reshape_5/Reshape'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.transpose_1159/transpose, model_1/tf.reshape_5/Reshape
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_594/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.reshape_3/Reshape, model_1/tf.reshape_5/Reshape, model_1/tf.concat_594/concat
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_16/StridedSlice3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_594/concat, model_1/tf.strided_slice_16/StridedSlice3
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'model_1/tf.reshape_6/Reshape'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_16/StridedSlice3, model_1/tf.reshape_6/Reshape
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'model_1/tf.compat.v1.transpose_1162/transpose;model_1/tf.compat.v1.transpose_1161/transpose/perm;model_1/tf.compat.v1.transpose_1161/transpose;model_1/tf.compat.v1.transpose_1162/transpose/perm1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.reshape_6/Reshape, model_1/tf.compat.v1.transpose_1162/transpose;model_1/tf.compat.v1.transpose_1161/transpose/perm;model_1/tf.compat.v1.transpose_1161/transpose;model_1/tf.compat.v1.transpose_1162/transpose/perm, model_1/tf.compat.v1.transpose_1162/transpose;model_1/tf.compat.v1.transpose_1161/transpose/perm;model_1/tf.compat.v1.transpose_1161/transpose;model_1/tf.compat.v1.transpose_1162/transpose/perm1
+Warning: Unsupported TensorFlow Lite semantics for SOFTMAX 'model_1/tf.nn.softmax/wa/model.22/dfl/Softmax'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.transpose_1162/transpose;model_1/tf.compat.v1.transpose_1161/transpose/perm;model_1/tf.compat.v1.transpose_1161/transpose;model_1/tf.compat.v1.transpose_1162/transpose/perm1, model_1/tf.nn.softmax/wa/model.22/dfl/Softmax
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.nn.convolution_95/convolution2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.nn.softmax/wa/model.22/dfl/Softmax, model_1/tf.nn.convolution_95/convolution_reshape, model_1/tf.nn.convolution_95/convolution2
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'model_1/tf.reshape_7/Reshape'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.nn.convolution_95/convolution2, model_1/tf.reshape_7/Reshape
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_18/StridedSlice1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.reshape_7/Reshape, model_1/tf.strided_slice_18/StridedSlice1
+Warning: Unsupported TensorFlow Lite semantics for SUB 'model_1/tf.math.subtract/Sub'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Const_85, model_1/tf.strided_slice_18/StridedSlice1, model_1/tf.math.subtract/Sub
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_19/StridedSlice1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.reshape_7/Reshape, model_1/tf.strided_slice_19/StridedSlice1
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_108/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_19/StridedSlice1, Const_85, model_1/tf.math.add_108/Add
+Warning: Unsupported TensorFlow Lite semantics for ADD 'model_1/tf.math.add_109/Add'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.subtract/Sub, model_1/tf.math.add_108/Add, model_1/tf.math.add_109/Add
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.divide/truediv;Const_781'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_109/Add, model_1/tf.math.divide/truediv;Const_78, model_1/tf.math.divide/truediv;Const_781
+Warning: Unsupported TensorFlow Lite semantics for SUB 'model_1/tf.math.subtract_1/Sub'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_108/Add, model_1/tf.math.subtract/Sub, model_1/tf.math.subtract_1/Sub
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_595/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.subtract_1/Sub, model_1/tf.concat_595/concat
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_294/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_595/concat, model_1/tf.math.multiply_294/Mul/y, model_1/tf.math.multiply_294/Mul
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.divide_1/truediv;model_1/tf.math.divide_1/truediv/y1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_294/Mul, model_1/tf.math.divide_1/truediv;model_1/tf.math.divide_1/truediv/y, model_1/tf.math.divide_1/truediv;model_1/tf.math.divide_1/truediv/y1
+Warning: Unsupported TensorFlow Lite semantics for STRIDED_SLICE 'model_1/tf.strided_slice_17/StridedSlice1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.concat_594/concat, model_1/tf.strided_slice_17/StridedSlice1
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_86/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.strided_slice_17/StridedSlice1, model_1/tf.math.sigmoid_86/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_65/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_53/convolution;Const_101'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_176/Mul, model_1/tf.math.add_65/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_53/convolution;Const_101
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_53/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_65/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_53/convolution;Const_101, model_1/tf.math.sigmoid_53/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_185/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_65/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_53/convolution;Const_101, model_1/tf.math.sigmoid_53/Sigmoid, model_1/tf.math.multiply_185/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_69/Add;model_1/tf.nn.convolution_56/convolution;Const_93'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_185/Mul, model_1/tf.math.add_69/Add;model_1/tf.nn.convolution_56/convolution;Const_93
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_56/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_69/Add;model_1/tf.nn.convolution_56/convolution;Const_93, model_1/tf.math.sigmoid_56/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_194/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_69/Add;model_1/tf.nn.convolution_56/convolution;Const_93, model_1/tf.math.sigmoid_56/Sigmoid, model_1/tf.math.multiply_194/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_74/Add;model_1/tf.nn.convolution_61/convolution;Const_79'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_194/Mul, model_1/tf.math.add_74/Add;model_1/tf.nn.convolution_61/convolution;Const_79
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'model_1/tf.compat.v1.transpose/transpose'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_74/Add;model_1/tf.nn.convolution_61/convolution;Const_79, model_1/tf.compat.v1.transpose/transpose/perm, model_1/tf.compat.v1.transpose/transpose
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'model_1/tf.reshape/Reshape'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.transpose/transpose, model_1/tf.reshape/Reshape
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_84/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_71/convolution;Const_102'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_224/Mul, model_1/tf.math.add_84/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_71/convolution;Const_102
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_68/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_84/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_71/convolution;Const_102, model_1/tf.math.sigmoid_68/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_230/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_84/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_71/convolution;Const_102, model_1/tf.math.sigmoid_68/Sigmoid, model_1/tf.math.multiply_230/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_87/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_74/convolution;Const_94'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_230/Mul, model_1/tf.math.add_87/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_74/convolution;Const_94
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_71/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_87/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_74/convolution;Const_94, model_1/tf.math.sigmoid_71/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_239/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_87/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_74/convolution;Const_94, model_1/tf.math.sigmoid_71/Sigmoid, model_1/tf.math.multiply_239/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_91/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_78/convolution;Const_80'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_239/Mul, model_1/tf.math.add_91/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_78/convolution;Const_80
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'model_1/tf.compat.v1.transpose_1156/transpose'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_91/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_78/convolution;Const_80, model_1/tf.compat.v1.transpose/transpose/perm, model_1/tf.compat.v1.transpose_1156/transpose
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'model_1/tf.reshape_2/Reshape'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.transpose_1156/transpose, model_1/tf.reshape_2/Reshape
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_99/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_86/convolution;Const_103'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_263/Mul, model_1/tf.math.add_99/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_86/convolution;Const_103
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_80/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_99/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_86/convolution;Const_103, model_1/tf.math.sigmoid_80/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_266/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_99/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_86/convolution;Const_103, model_1/tf.math.sigmoid_80/Sigmoid, model_1/tf.math.multiply_266/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_102/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_89/convolution;Const_95'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_266/Mul, model_1/tf.math.add_102/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_89/convolution;Const_95
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_83/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_102/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_89/convolution;Const_95, model_1/tf.math.sigmoid_83/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_275/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_102/Add;model_1/tf.nn.convolution_56/convolution;model_1/tf.nn.convolution_89/convolution;Const_95, model_1/tf.math.sigmoid_83/Sigmoid, model_1/tf.math.multiply_275/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_105/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_92/convolution;Const_81'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_275/Mul, model_1/tf.math.add_105/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_92/convolution;Const_81
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'model_1/tf.compat.v1.transpose_1158/transpose'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_105/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_92/convolution;Const_81, model_1/tf.compat.v1.transpose/transpose/perm, model_1/tf.compat.v1.transpose_1158/transpose
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'model_1/tf.reshape_4/Reshape'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.compat.v1.transpose_1158/transpose, model_1/tf.reshape_4/Reshape
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'model_1/tf.concat_593/concat'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.reshape_2/Reshape, model_1/tf.reshape_4/Reshape, model_1/tf.concat_593/concat
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'PartitionedCall:0'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.sigmoid_86/Sigmoid, model_1/tf.concat_593/concat, PartitionedCall:0
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'model_1/tf.nn.conv2d_transpose/conv2d_transpose1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.nn.conv2d_transpose/conv2d_transpose1
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_64/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_52/convolution;Const_104'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_176/Mul, model_1/tf.math.add_64/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_52/convolution;Const_104
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_52/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_64/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_52/convolution;Const_104, model_1/tf.math.sigmoid_52/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_182/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_64/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_52/convolution;Const_104, model_1/tf.math.sigmoid_52/Sigmoid, model_1/tf.math.multiply_182/Mul
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE_CONV 'model_1/tf.math.add_68/Add;model_1/tf.nn.conv2d_transpose/conv2d_transpose;model_1/tf.math.add_68/Add/y'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_182/Mul, model_1/tf.nn.conv2d_transpose/conv2d_transpose1, model_1/tf.math.add_68/Add;model_1/tf.nn.conv2d_transpose/conv2d_transpose;model_1/tf.math.add_68/Add/y
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_73/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_60/convolution;Const_87'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_68/Add;model_1/tf.nn.conv2d_transpose/conv2d_transpose;model_1/tf.math.add_68/Add/y, model_1/tf.math.add_73/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_60/convolution;Const_87
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_60/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_73/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_60/convolution;Const_87, model_1/tf.math.sigmoid_60/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'model_1/tf.math.multiply_206/Mul'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_73/Add;model_1/tf.nn.convolution_58/convolution;model_1/tf.nn.convolution_60/convolution;Const_87, model_1/tf.math.sigmoid_60/Sigmoid, model_1/tf.math.multiply_206/Mul
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'model_1/tf.math.add_77/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_64/convolution;Const_76'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.multiply_206/Mul, model_1/tf.math.add_77/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_64/convolution;Const_76
+Warning: Unsupported TensorFlow Lite semantics for LOGISTIC 'model_1/tf.math.sigmoid_61/Sigmoid'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_77/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_64/convolution;Const_76, model_1/tf.math.sigmoid_61/Sigmoid
+Warning: Unsupported TensorFlow Lite semantics for MUL 'PartitionedCall:1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: model_1/tf.math.add_77/Add;model_1/tf.nn.convolution_61/convolution;model_1/tf.nn.convolution_64/convolution;Const_76, model_1/tf.math.sigmoid_61/Sigmoid, PartitionedCall:1
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Sub operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Sub operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBackpropInput operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: ResizeNearestNeighbor operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: MaxPool operation is unknown or unsupported, placing on CPU
+Warning: MaxPool operation is unknown or unsupported, placing on CPU
+Warning: MaxPool operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: ConcatTFLite operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Add operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: StridedSlice operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Mul operation is unknown or unsupported, placing on CPU
+Warning: Sigmoid operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+
+Network summary for yolov8m-seg_int8
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+
+
+CPU operators = 358 (100.0%)
+NPU operators = 0 (0.0%)
+
+Neural network macs                                 0 MACs/batch
+Network Tops/s                                    nan Tops/s
+
+NPU cycles                                          0 cycles/batch
+SRAM Access cycles                                  0 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                        0 cycles/batch
+
+Batch Inference time                 0.00 ms,     nan inferences/s (batch size 1)
+

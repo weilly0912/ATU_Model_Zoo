@@ -1,0 +1,85 @@
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: serving_default_input_1:0, Pad
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'transpose_11'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad, transpose_11
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add;convolution;Const_4'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_11, convolution_reshape, Add;convolution;Const_4
+Warning: Unsupported TensorFlow Lite semantics for TANH 'onnx_tf_prefix_Tanh_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add;convolution;Const_4, onnx_tf_prefix_Tanh_1
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Tanh_1, transpose_2/perm, transpose_2
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_2, Pad_1
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_4'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_1, transpose_1/perm, transpose_4
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_1;convolution_1;Const_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_4, convolution_1_reshape, Add_1;convolution_1;Const_2
+Warning: Unsupported TensorFlow Lite semantics for TANH 'onnx_tf_prefix_Tanh_3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_1;convolution_1;Const_2, onnx_tf_prefix_Tanh_3
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_5'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Tanh_3, transpose_2/perm, transpose_5
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_5, Pad_2
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_7'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_2, transpose_1/perm, transpose_7
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_2;convolution_2;Const'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_7, convolution_2_reshape, Add_2;convolution_2;Const
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_2;convolution_2;Const, transpose_2/perm, transpose_8
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'Reshape' has shape: [1, 1, 2, 2, 156, 240]
+Warning: Unsupported TensorFlow Lite semantics for CUSTOM 'transpose_9'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'Reshape' has shape: [1, 1, 2, 2, 156, 240], Tensor 'transpose_9' has shape: [1, 1, 156, 2, 240, 2]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'PartitionedCall:0'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'transpose_9' has shape: [1, 1, 156, 2, 240, 2]
+Warning: Custom operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Tanh operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Tanh operation is unknown or unsupported, placing on CPU
+Warning: Conv2DBias operation is unknown or unsupported, placing on CPU
+
+Network summary for espcn_x2_156x240_eIQtoolkit_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+
+
+CPU operators = 17 (100.0%)
+NPU operators = 0 (0.0%)
+
+Neural network macs                                 0 MACs/batch
+Network Tops/s                                    nan Tops/s
+
+NPU cycles                                          0 cycles/batch
+SRAM Access cycles                                  0 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                        0 cycles/batch
+
+Batch Inference time                 0.00 ms,     nan inferences/s (batch size 1)
+

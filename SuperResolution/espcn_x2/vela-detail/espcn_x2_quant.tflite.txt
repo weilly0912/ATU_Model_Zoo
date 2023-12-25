@@ -1,0 +1,84 @@
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_2/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_4'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_5'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_2/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_7'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1/perm
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_2/perm
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'Reshape'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'Reshape' has shape: [1, 1, 2, 2, 156, 240]
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_9'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'Reshape' has shape: [1, 1, 2, 2, 156, 240], Tensor 'transpose_9' has shape: [1, 1, 156, 2, 240, 2]
+Warning: Unsupported TensorFlow Lite semantics for RESHAPE 'PartitionedCall:01'. Placing on CPU instead
+ - Input(s) and Output tensors must not be greater than 4D
+   Tensor 'transpose_9' has shape: [1, 1, 156, 2, 240, 2]
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+Warning: Transpose operation is unknown or unsupported, placing on CPU
+<nng.Tensor 'onnx_tf_prefix_Tanh_1' shape=[1, 156, 240, 64] dtype=int8> adding consumer <nng.Operation 'transpose_2' type=Transpose>
+<nng.Tensor 'transpose_2/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_2' type=Transpose>
+<nng.Tensor 'transpose_2' shape=[1, 64, 156, 240] dtype=int8> adding consumer <nng.Operation 'call_main_split_2' type=CustomNpuOp>
+<nng.Tensor 'Pad_1' shape=[1, 64, 158, 242] dtype=int8> adding consumer <nng.Operation 'transpose_4' type=Transpose>
+<nng.Tensor 'transpose_1/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_4' type=Transpose>
+<nng.Tensor 'transpose_4' shape=[1, 158, 242, 64] dtype=int8> adding consumer <nng.Operation 'call_main_split_3' type=CustomNpuOp>
+<nng.Tensor 'onnx_tf_prefix_Tanh_3' shape=[1, 156, 240, 32] dtype=int8> adding consumer <nng.Operation 'transpose_5' type=Transpose>
+<nng.Tensor 'transpose_2/perm' shape=[4] dtype=int32> adding consumer <nng.Operation 'transpose_5' type=Transpose>
+<nng.Tensor 'transpose_5' shape=[1, 32, 156, 240] dtype=int8> adding consumer <nng.Operation 'call_main_split_4' type=CustomNpuOp>
+<nng.Tensor 'transpose_2_npu' shape=[1, 64, 156, 240] dtype=int8> adding consumer <nng.Operation 'Pad_1_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_1_right_0_npu' shape=[1, 64, 156, 1] dtype=int8> adding consumer <nng.Operation 'Pad_1_concat2_avgpool' type=AvgPool>
+<nng.Tensor 'transpose_5_npu' shape=[1, 32, 156, 240] dtype=int8> adding consumer <nng.Operation 'Pad_2_concat1_avgpool' type=AvgPool>
+<nng.Tensor 'Pad_2_right_0_npu' shape=[1, 32, 156, 1] dtype=int8> adding consumer <nng.Operation 'Pad_2_concat2_avgpool' type=AvgPool>
+
+Network summary for espcn_x2_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                 74.69 KiB
+Total DRAM used                               8319.30 KiB
+
+CPU operators = 5 (23.8%)
+NPU operators = 16 (76.2%)
+
+Average SRAM bandwidth                           0.12 GB/s
+Input   SRAM bandwidth                           0.28 MB/batch
+Weight  SRAM bandwidth                           5.49 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                           5.77 MB/batch
+Total   SRAM bandwidth            per input      5.77 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.56 GB/s
+Input   DRAM bandwidth                          12.66 MB/batch
+Weight  DRAM bandwidth                           0.02 MB/batch
+Output  DRAM bandwidth                          15.06 MB/batch
+Total   DRAM bandwidth                          27.74 MB/batch
+Total   DRAM bandwidth            per input     27.74 MB/inference (batch size 1)
+
+Neural network macs                         804445248 MACs/batch
+Network Tops/s                                   0.03 Tops/s
+
+NPU cycles                                   20837181 cycles/batch
+SRAM Access cycles                             303360 cycles/batch
+DRAM Access cycles                           49815108 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 49948022 cycles/batch
+
+Batch Inference time                49.95 ms,   20.02 inferences/s (batch size 1)
+

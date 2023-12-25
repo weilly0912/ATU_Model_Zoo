@@ -1,0 +1,1693 @@
+Warning: Using internal-default values for system configuration
+Warning: Using internal-default values for memory mode
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: serving_default_input_1:0, Pad
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad, transpose_1/perm, transpose_1
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_1;Add;convolution;Const_141'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_1, convolution_reshape, onnx_tf_prefix_Relu_1;Add;convolution;Const_141
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_3;Add_1;convolution_6;convolution_1;Const_139'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_1;Add;convolution;Const_141, onnx_tf_prefix_Relu_3;Add_1;convolution_6;convolution_1;Const_139
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_5'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_3;Add_1;convolution_6;convolution_1;Const_139, transpose_101/perm, transpose_5
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_5, Pad_1
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_7'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_1, transpose_1/perm, transpose_7
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_7, split_3
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2100'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3, convolution_2100
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3100'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_31, convolution_3100
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_416'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_32, convolution_416
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_510'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_33, convolution_510
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_3100, convolution_416, concat_2
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_5;Add_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_2, Const_137, onnx_tf_prefix_Relu_5;Add_2
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_3;convolution_6;Const_135'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_5;Add_2, Add_3;convolution_6;Const_135
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_4;convolution_6;convolution_7;Const_133'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_1;Add;convolution;Const_141, Add_4;convolution_6;convolution_7;Const_133
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_9;onnx_tf_prefix_Add_8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_3;convolution_6;Const_135, Add_4;convolution_6;convolution_7;Const_133, onnx_tf_prefix_Relu_9;onnx_tf_prefix_Add_8
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_58;convolution_414;convolution_406;Const_23'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_9;onnx_tf_prefix_Add_8, Add_58;convolution_414;convolution_406;Const_23
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_11;Add_5;convolution_38;convolution_8;Const_131'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_9;onnx_tf_prefix_Add_8, onnx_tf_prefix_Relu_11;Add_5;convolution_38;convolution_8;Const_131
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_17'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_11;Add_5;convolution_38;convolution_8;Const_131, transpose_101/perm, transpose_17
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_17, Pad_2
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_19'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_2, transpose_1/perm, transpose_19
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_19, split_8
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_910'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_8, convolution_910
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1010'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_81, convolution_1010
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1110'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_82, convolution_1110
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1210'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_83, convolution_1210
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1310'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_84, convolution_1310
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1410'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_85, convolution_1410
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1510'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_86, convolution_1510
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1610'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_87, convolution_1610
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_6'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_1010, convolution_1110, concat_6
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_13;Add_6'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_6, Const_129, onnx_tf_prefix_Relu_13;Add_6
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_7;convolution_38;convolution_17;Const_127'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_13;Add_6, Add_7;convolution_38;convolution_17;Const_127
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_8;convolution_38;convolution_18;Const_125'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_9;onnx_tf_prefix_Add_8, Add_8;convolution_38;convolution_18;Const_125
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_17;onnx_tf_prefix_Add_16'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_7;convolution_38;convolution_17;Const_127, Add_8;convolution_38;convolution_18;Const_125, onnx_tf_prefix_Relu_17;onnx_tf_prefix_Add_16
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_19;Add_9;convolution_38;convolution_19;Const_123'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_17;onnx_tf_prefix_Add_16, onnx_tf_prefix_Relu_19;Add_9;convolution_38;convolution_19;Const_123
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_29'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_19;Add_9;convolution_38;convolution_19;Const_123, transpose_101/perm, transpose_29
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_29, Pad_3
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_31'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_3, transpose_1/perm, transpose_31
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_13'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_31, split_13
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2010'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_13, convolution_2010
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2110'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_131, convolution_2110
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2210'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_132, convolution_2210
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2310'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_133, convolution_2310
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2410'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_134, convolution_2410
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2510'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_135, convolution_2510
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2610'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_136, convolution_2610
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2710'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_137, convolution_2710
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_10'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_2110, convolution_2210, concat_10
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_21;Add_10'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_10, Const_121, onnx_tf_prefix_Relu_21;Add_10
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_11;convolution_38;convolution_28;Const_119'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_21;Add_10, Add_11;convolution_38;convolution_28;Const_119
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_24;onnx_tf_prefix_Add_23'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_11;convolution_38;convolution_28;Const_119, onnx_tf_prefix_Relu_17;onnx_tf_prefix_Add_16, onnx_tf_prefix_Relu_24;onnx_tf_prefix_Add_23
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_26;Add_12;convolution_38;convolution_29;Const_117'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_24;onnx_tf_prefix_Add_23, onnx_tf_prefix_Relu_26;Add_12;convolution_38;convolution_29;Const_117
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_38'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_26;Add_12;convolution_38;convolution_29;Const_117, transpose_101/perm, transpose_38
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_4'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_38, Pad_4
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_40'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_4, transpose_1/perm, transpose_40
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_17'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_40, split_17
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3010'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_17, convolution_3010
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3110'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_171, convolution_3110
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3210'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_172, convolution_3210
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3310'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_173, convolution_3310
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3410'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_174, convolution_3410
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3510'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_175, convolution_3510
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3610'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_176, convolution_3610
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3710'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_177, convolution_3710
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_13'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_3110, convolution_3210, concat_13
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_28;Add_13'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_13, Const_115, onnx_tf_prefix_Relu_28;Add_13
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_14;convolution_38;Const_113'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_28;Add_13, Add_14;convolution_38;Const_113
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_31;onnx_tf_prefix_Add_30'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_14;convolution_38;Const_113, onnx_tf_prefix_Relu_24;onnx_tf_prefix_Add_23, onnx_tf_prefix_Relu_31;onnx_tf_prefix_Add_30
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_56;convolution_414;convolution_404;Const_28'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_31;onnx_tf_prefix_Add_30, Add_56;convolution_414;convolution_404;Const_28
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_33;Add_15;convolution_179;convolution_39;Const_111'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_31;onnx_tf_prefix_Add_30, onnx_tf_prefix_Relu_33;Add_15;convolution_179;convolution_39;Const_111
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_47'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_33;Add_15;convolution_179;convolution_39;Const_111, transpose_101/perm, transpose_47
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_5'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_47, Pad_5
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_49'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_5, transpose_1/perm, transpose_49
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_21'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_49, split_21
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_4010'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_21, convolution_4010
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_417'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_211, convolution_417
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_421'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_212, convolution_421
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_431'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_213, convolution_431
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_441'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_214, convolution_441
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_451'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_215, convolution_451
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_461'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_216, convolution_461
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_471'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_217, convolution_471
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_481'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_218, convolution_481
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_491'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_219, convolution_491
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_501'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2110, convolution_501
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_511'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2111, convolution_511
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_521'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2112, convolution_521
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_531'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2113, convolution_531
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_541'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2114, convolution_541
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_551'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2115, convolution_551
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_561'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2116, convolution_561
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_571'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2117, convolution_571
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_16'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_417, convolution_421, concat_16
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_35;Add_16'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_16, Const_109, onnx_tf_prefix_Relu_35;Add_16
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_17;convolution_179;convolution_58;Const_107'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_35;Add_16, Add_17;convolution_179;convolution_58;Const_107
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_18;convolution_179;convolution_59;Const_105'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_31;onnx_tf_prefix_Add_30, Add_18;convolution_179;convolution_59;Const_105
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_39;onnx_tf_prefix_Add_38'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_17;convolution_179;convolution_58;Const_107, Add_18;convolution_179;convolution_59;Const_105, onnx_tf_prefix_Relu_39;onnx_tf_prefix_Add_38
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_41;Add_19;convolution_179;convolution_60;Const_103'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_39;onnx_tf_prefix_Add_38, onnx_tf_prefix_Relu_41;Add_19;convolution_179;convolution_60;Const_103
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_59'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_41;Add_19;convolution_179;convolution_60;Const_103, transpose_101/perm, transpose_59
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_6'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_59, Pad_6
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_61'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_6, transpose_1/perm, transpose_61
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_26'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_61, split_26
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_611'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_26, convolution_611
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_621'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_261, convolution_621
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_631'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_262, convolution_631
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_641'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_263, convolution_641
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_651'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_264, convolution_651
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_661'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_265, convolution_661
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_671'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_266, convolution_671
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_681'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_267, convolution_681
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_691'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_268, convolution_691
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_701'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_269, convolution_701
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_711'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2610, convolution_711
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_721'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2611, convolution_721
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_731'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2612, convolution_731
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_741'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2613, convolution_741
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_751'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2614, convolution_751
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_761'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2615, convolution_761
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_771'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2616, convolution_771
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_781'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_2617, convolution_781
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_20'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_621, convolution_631, concat_20
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_43;Add_20'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_20, Const_101, onnx_tf_prefix_Relu_43;Add_20
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_21;convolution_179;convolution_79;Const_99'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_43;Add_20, Add_21;convolution_179;convolution_79;Const_99
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_46;onnx_tf_prefix_Add_45'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_21;convolution_179;convolution_79;Const_99, onnx_tf_prefix_Relu_39;onnx_tf_prefix_Add_38, onnx_tf_prefix_Relu_46;onnx_tf_prefix_Add_45
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_48;Add_22;convolution_179;convolution_80;Const_97'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_46;onnx_tf_prefix_Add_45, onnx_tf_prefix_Relu_48;Add_22;convolution_179;convolution_80;Const_97
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_68'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_48;Add_22;convolution_179;convolution_80;Const_97, transpose_101/perm, transpose_68
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_7'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_68, Pad_7
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_70'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_7, transpose_1/perm, transpose_70
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_30'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_70, split_30
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_811'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_30, convolution_811
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_821'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_301, convolution_821
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_831'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_302, convolution_831
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_841'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_303, convolution_841
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_851'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_304, convolution_851
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_861'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_305, convolution_861
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_871'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_306, convolution_871
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_881'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_307, convolution_881
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_891'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_308, convolution_891
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_901'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_309, convolution_901
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_911'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3010, convolution_911
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_921'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3011, convolution_921
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_931'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3012, convolution_931
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_941'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3013, convolution_941
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_951'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3014, convolution_951
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_961'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3015, convolution_961
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_971'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3016, convolution_971
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_981'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3017, convolution_981
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_23'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_821, convolution_831, concat_23
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_50;Add_23'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_23, Const_95, onnx_tf_prefix_Relu_50;Add_23
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_24;convolution_179;convolution_99;Const_93'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_50;Add_23, Add_24;convolution_179;convolution_99;Const_93
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_53;onnx_tf_prefix_Add_52'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_24;convolution_179;convolution_99;Const_93, onnx_tf_prefix_Relu_46;onnx_tf_prefix_Add_45, onnx_tf_prefix_Relu_53;onnx_tf_prefix_Add_52
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_55;Add_25;convolution_179;convolution_100;Const_91'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_53;onnx_tf_prefix_Add_52, onnx_tf_prefix_Relu_55;Add_25;convolution_179;convolution_100;Const_91
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_77'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_55;Add_25;convolution_179;convolution_100;Const_91, transpose_101/perm, transpose_77
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_77, Pad_8
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_79'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_8, transpose_1/perm, transpose_79
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_34'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_79, split_34
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1011'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_34, convolution_1011
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1021'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_341, convolution_1021
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1031'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_342, convolution_1031
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1041'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_343, convolution_1041
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1051'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_344, convolution_1051
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1061'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_345, convolution_1061
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1071'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_346, convolution_1071
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1081'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_347, convolution_1081
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1091'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_348, convolution_1091
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1101'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_349, convolution_1101
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1111'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3410, convolution_1111
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1121'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3411, convolution_1121
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1131'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3412, convolution_1131
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1141'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3413, convolution_1141
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1151'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3414, convolution_1151
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1161'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3415, convolution_1161
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1171'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3416, convolution_1171
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1181'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3417, convolution_1181
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_26'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_1021, convolution_1031, concat_26
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_57;Add_26'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_26, Const_89, onnx_tf_prefix_Relu_57;Add_26
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_27;convolution_179;convolution_119;Const_87'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_57;Add_26, Add_27;convolution_179;convolution_119;Const_87
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_60;onnx_tf_prefix_Add_59'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_27;convolution_179;convolution_119;Const_87, onnx_tf_prefix_Relu_53;onnx_tf_prefix_Add_52, onnx_tf_prefix_Relu_60;onnx_tf_prefix_Add_59
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_62;Add_28;convolution_179;convolution_120;Const_85'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_60;onnx_tf_prefix_Add_59, onnx_tf_prefix_Relu_62;Add_28;convolution_179;convolution_120;Const_85
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_86'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_62;Add_28;convolution_179;convolution_120;Const_85, transpose_101/perm, transpose_86
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_9'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_86, Pad_9
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_88'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_9, transpose_1/perm, transpose_88
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_38'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_88, split_38
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1211'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_38, convolution_1211
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1221'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_381, convolution_1221
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1231'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_382, convolution_1231
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1241'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_383, convolution_1241
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1251'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_384, convolution_1251
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1261'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_385, convolution_1261
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1271'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_386, convolution_1271
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1281'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_387, convolution_1281
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1291'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_388, convolution_1291
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1301'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_389, convolution_1301
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1311'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3810, convolution_1311
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1321'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3811, convolution_1321
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1331'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3812, convolution_1331
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1341'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3813, convolution_1341
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1351'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3814, convolution_1351
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1361'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3815, convolution_1361
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1371'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3816, convolution_1371
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1381'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_3817, convolution_1381
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_29'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_1221, convolution_1231, concat_29
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_64;Add_29'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_29, Const_83, onnx_tf_prefix_Relu_64;Add_29
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_30;convolution_179;convolution_139;Const_81'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_64;Add_29, Add_30;convolution_179;convolution_139;Const_81
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_67;onnx_tf_prefix_Add_66'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_30;convolution_179;convolution_139;Const_81, onnx_tf_prefix_Relu_60;onnx_tf_prefix_Add_59, onnx_tf_prefix_Relu_67;onnx_tf_prefix_Add_66
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_69;Add_31;convolution_179;convolution_140;Const_79'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_67;onnx_tf_prefix_Add_66, onnx_tf_prefix_Relu_69;Add_31;convolution_179;convolution_140;Const_79
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_95'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_69;Add_31;convolution_179;convolution_140;Const_79, transpose_101/perm, transpose_95
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_10'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_95, Pad_10
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_97'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_10, transpose_1/perm, transpose_97
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_42'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_97, split_42
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1411'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_42, convolution_1411
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1421'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_421, convolution_1421
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1431'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_422, convolution_1431
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1441'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_423, convolution_1441
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1451'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_424, convolution_1451
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1461'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_425, convolution_1461
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1471'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_426, convolution_1471
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1481'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_427, convolution_1481
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1491'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_428, convolution_1491
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1501'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_429, convolution_1501
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1511'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4210, convolution_1511
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1521'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4211, convolution_1521
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1531'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4212, convolution_1531
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1541'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4213, convolution_1541
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1551'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4214, convolution_1551
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1561'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4215, convolution_1561
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1571'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4216, convolution_1571
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1581'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4217, convolution_1581
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_32'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_1421, convolution_1431, concat_32
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_71;Add_32'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_32, Const_77, onnx_tf_prefix_Relu_71;Add_32
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_33;convolution_179;convolution_159;Const_75'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_71;Add_32, Add_33;convolution_179;convolution_159;Const_75
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_74;onnx_tf_prefix_Add_73'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_33;convolution_179;convolution_159;Const_75, onnx_tf_prefix_Relu_67;onnx_tf_prefix_Add_66, onnx_tf_prefix_Relu_74;onnx_tf_prefix_Add_73
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_76;Add_34;convolution_179;convolution_160;Const_73'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_74;onnx_tf_prefix_Add_73, onnx_tf_prefix_Relu_76;Add_34;convolution_179;convolution_160;Const_73
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_104'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_76;Add_34;convolution_179;convolution_160;Const_73, transpose_101/perm, transpose_104
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_11'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_104, Pad_11
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_106'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_11, transpose_1/perm, transpose_106
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_46'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_106, split_46
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1611'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_46, convolution_1611
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1621'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_461, convolution_1621
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1631'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_462, convolution_1631
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1641'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_463, convolution_1641
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1651'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_464, convolution_1651
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1661'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_465, convolution_1661
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1671'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_466, convolution_1671
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1681'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_467, convolution_1681
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1691'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_468, convolution_1691
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1701'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_469, convolution_1701
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1711'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4610, convolution_1711
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1721'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4611, convolution_1721
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1731'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4612, convolution_1731
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1741'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4613, convolution_1741
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1751'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4614, convolution_1751
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1761'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4615, convolution_1761
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1771'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4616, convolution_1771
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1781'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_4617, convolution_1781
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_35'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_1621, convolution_1631, concat_35
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_78;Add_35'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_35, Const_71, onnx_tf_prefix_Relu_78;Add_35
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_36;convolution_179;Const_69'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_78;Add_35, Add_36;convolution_179;Const_69
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_81;onnx_tf_prefix_Add_80'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_36;convolution_179;Const_69, onnx_tf_prefix_Relu_74;onnx_tf_prefix_Add_73, onnx_tf_prefix_Relu_81;onnx_tf_prefix_Add_80
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_54;convolution_414;convolution_402;Const_33'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_81;onnx_tf_prefix_Add_80, Add_54;convolution_414;convolution_402;Const_33
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_83;Add_37;convolution_400;convolution_180;Const_67'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_81;onnx_tf_prefix_Add_80, onnx_tf_prefix_Relu_83;Add_37;convolution_400;convolution_180;Const_67
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_113'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_83;Add_37;convolution_400;convolution_180;Const_67, transpose_101/perm, transpose_113
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_12'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_113, Pad_12
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_115'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_12, transpose_1/perm, transpose_115
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_50'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_115, split_50
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1811'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_50, convolution_1811
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1821'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_501, convolution_1821
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1831'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_502, convolution_1831
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1841'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_503, convolution_1841
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1851'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_504, convolution_1851
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1861'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_505, convolution_1861
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1871'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_506, convolution_1871
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1881'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_507, convolution_1881
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1891'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_508, convolution_1891
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1901'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_509, convolution_1901
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1911'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5010, convolution_1911
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1921'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5011, convolution_1921
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1931'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5012, convolution_1931
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1941'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5013, convolution_1941
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1951'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5014, convolution_1951
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1961'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5015, convolution_1961
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1971'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5016, convolution_1971
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1981'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5017, convolution_1981
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_1991'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5018, convolution_1991
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2001'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5019, convolution_2001
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2011'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5020, convolution_2011
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2021'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5021, convolution_2021
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2031'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5022, convolution_2031
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2041'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5023, convolution_2041
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2051'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5024, convolution_2051
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2061'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5025, convolution_2061
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2071'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5026, convolution_2071
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2081'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5027, convolution_2081
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2091'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5028, convolution_2091
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2101'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5029, convolution_2101
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2111'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5030, convolution_2111
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2121'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5031, convolution_2121
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2131'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5032, convolution_2131
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2141'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5033, convolution_2141
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2151'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5034, convolution_2151
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2161'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5035, convolution_2161
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2171'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5036, convolution_2171
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2181'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5037, convolution_2181
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2191'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5038, convolution_2191
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2201'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5039, convolution_2201
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2211'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5040, convolution_2211
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2221'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5041, convolution_2221
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_38'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_1821, convolution_1831, concat_38
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_85;Add_38'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_38, Const_65, onnx_tf_prefix_Relu_85;Add_38
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_39;convolution_400;convolution_223;Const_63'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_85;Add_38, Add_39;convolution_400;convolution_223;Const_63
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_40;convolution_400;convolution_224;Const_61'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_81;onnx_tf_prefix_Add_80, Add_40;convolution_400;convolution_224;Const_61
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_89;onnx_tf_prefix_Add_88'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_39;convolution_400;convolution_223;Const_63, Add_40;convolution_400;convolution_224;Const_61, onnx_tf_prefix_Relu_89;onnx_tf_prefix_Add_88
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_91;Add_41;convolution_400;convolution_225;Const_59'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_89;onnx_tf_prefix_Add_88, onnx_tf_prefix_Relu_91;Add_41;convolution_400;convolution_225;Const_59
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_125'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_91;Add_41;convolution_400;convolution_225;Const_59, transpose_101/perm, transpose_125
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_13'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_125, Pad_13
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_127'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_13, transpose_1/perm, transpose_127
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_55'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_127, split_55
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2261'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_55, convolution_2261
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2271'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_551, convolution_2271
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2281'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_552, convolution_2281
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2291'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_553, convolution_2291
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2301'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_554, convolution_2301
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2311'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_555, convolution_2311
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2321'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_556, convolution_2321
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2331'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_557, convolution_2331
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2341'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_558, convolution_2341
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2351'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_559, convolution_2351
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2361'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5510, convolution_2361
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2371'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5511, convolution_2371
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2381'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5512, convolution_2381
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2391'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5513, convolution_2391
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2401'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5514, convolution_2401
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2411'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5515, convolution_2411
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2421'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5516, convolution_2421
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2431'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5517, convolution_2431
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2441'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5518, convolution_2441
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2451'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5519, convolution_2451
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2461'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5520, convolution_2461
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2471'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5521, convolution_2471
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2481'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5522, convolution_2481
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2491'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5523, convolution_2491
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2501'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5524, convolution_2501
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2511'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5525, convolution_2511
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2521'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5526, convolution_2521
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2531'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5527, convolution_2531
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2541'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5528, convolution_2541
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2551'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5529, convolution_2551
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2561'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5530, convolution_2561
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2571'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5531, convolution_2571
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2581'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5532, convolution_2581
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2591'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5533, convolution_2591
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2601'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5534, convolution_2601
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2611'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5535, convolution_2611
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2621'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5536, convolution_2621
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2631'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5537, convolution_2631
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2641'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5538, convolution_2641
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2651'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5539, convolution_2651
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2661'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5540, convolution_2661
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2671'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5541, convolution_2671
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_42'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_2271, convolution_2281, concat_42
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_93;Add_42'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_42, Const_57, onnx_tf_prefix_Relu_93;Add_42
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_43;convolution_400;convolution_268;Const_55'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_93;Add_42, Add_43;convolution_400;convolution_268;Const_55
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_96;onnx_tf_prefix_Add_95'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_43;convolution_400;convolution_268;Const_55, onnx_tf_prefix_Relu_89;onnx_tf_prefix_Add_88, onnx_tf_prefix_Relu_96;onnx_tf_prefix_Add_95
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_98;Add_44;convolution_400;convolution_269;Const_53'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_96;onnx_tf_prefix_Add_95, onnx_tf_prefix_Relu_98;Add_44;convolution_400;convolution_269;Const_53
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_134'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_98;Add_44;convolution_400;convolution_269;Const_53, transpose_101/perm, transpose_134
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_14'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_134, Pad_14
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_136'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_14, transpose_1/perm, transpose_136
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_59'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_136, split_59
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2701'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_59, convolution_2701
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2711'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_591, convolution_2711
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2721'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_592, convolution_2721
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2731'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_593, convolution_2731
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2741'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_594, convolution_2741
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2751'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_595, convolution_2751
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2761'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_596, convolution_2761
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2771'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_597, convolution_2771
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2781'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_598, convolution_2781
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2791'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_599, convolution_2791
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2801'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5910, convolution_2801
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2811'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5911, convolution_2811
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2821'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5912, convolution_2821
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2831'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5913, convolution_2831
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2841'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5914, convolution_2841
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2851'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5915, convolution_2851
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2861'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5916, convolution_2861
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2871'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5917, convolution_2871
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2881'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5918, convolution_2881
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2891'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5919, convolution_2891
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2901'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5920, convolution_2901
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2911'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5921, convolution_2911
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2921'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5922, convolution_2921
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2931'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5923, convolution_2931
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2941'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5924, convolution_2941
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2951'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5925, convolution_2951
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2961'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5926, convolution_2961
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2971'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5927, convolution_2971
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2981'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5928, convolution_2981
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_2991'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5929, convolution_2991
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3001'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5930, convolution_3001
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3011'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5931, convolution_3011
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3021'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5932, convolution_3021
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3031'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5933, convolution_3031
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3041'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5934, convolution_3041
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3051'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5935, convolution_3051
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3061'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5936, convolution_3061
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3071'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5937, convolution_3071
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3081'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5938, convolution_3081
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3091'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5939, convolution_3091
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3101'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5940, convolution_3101
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3111'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_5941, convolution_3111
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_45'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_2711, convolution_2721, concat_45
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_100;Add_45'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_45, Const_51, onnx_tf_prefix_Relu_100;Add_45
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_46;convolution_400;convolution_312;Const_49'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_100;Add_45, Add_46;convolution_400;convolution_312;Const_49
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_103;onnx_tf_prefix_Add_102'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_46;convolution_400;convolution_312;Const_49, onnx_tf_prefix_Relu_96;onnx_tf_prefix_Add_95, onnx_tf_prefix_Relu_103;onnx_tf_prefix_Add_102
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_105;Add_47;convolution_400;convolution_313;Const_47'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_103;onnx_tf_prefix_Add_102, onnx_tf_prefix_Relu_105;Add_47;convolution_400;convolution_313;Const_47
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_143'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_105;Add_47;convolution_400;convolution_313;Const_47, transpose_101/perm, transpose_143
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_15'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_143, Pad_15
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_145'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_15, transpose_1/perm, transpose_145
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_63'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_145, split_63
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3141'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_63, convolution_3141
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3151'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_631, convolution_3151
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3161'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_632, convolution_3161
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3171'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_633, convolution_3171
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3181'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_634, convolution_3181
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3191'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_635, convolution_3191
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3201'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_636, convolution_3201
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3211'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_637, convolution_3211
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3221'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_638, convolution_3221
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3231'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_639, convolution_3231
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3241'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6310, convolution_3241
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3251'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6311, convolution_3251
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3261'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6312, convolution_3261
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3271'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6313, convolution_3271
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3281'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6314, convolution_3281
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3291'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6315, convolution_3291
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3301'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6316, convolution_3301
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3311'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6317, convolution_3311
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3321'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6318, convolution_3321
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3331'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6319, convolution_3331
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3341'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6320, convolution_3341
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3351'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6321, convolution_3351
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3361'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6322, convolution_3361
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3371'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6323, convolution_3371
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3381'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6324, convolution_3381
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3391'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6325, convolution_3391
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3401'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6326, convolution_3401
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3411'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6327, convolution_3411
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3421'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6328, convolution_3421
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3431'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6329, convolution_3431
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3441'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6330, convolution_3441
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3451'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6331, convolution_3451
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3461'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6332, convolution_3461
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3471'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6333, convolution_3471
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3481'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6334, convolution_3481
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3491'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6335, convolution_3491
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3501'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6336, convolution_3501
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3511'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6337, convolution_3511
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3521'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6338, convolution_3521
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3531'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6339, convolution_3531
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3541'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6340, convolution_3541
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3551'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6341, convolution_3551
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_48'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_3151, convolution_3161, concat_48
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_107;Add_48'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_48, Const_45, onnx_tf_prefix_Relu_107;Add_48
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_49;convolution_400;convolution_356;Const_43'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_107;Add_48, Add_49;convolution_400;convolution_356;Const_43
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_110;onnx_tf_prefix_Add_109'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_49;convolution_400;convolution_356;Const_43, onnx_tf_prefix_Relu_103;onnx_tf_prefix_Add_102, onnx_tf_prefix_Relu_110;onnx_tf_prefix_Add_109
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_112;Add_50;convolution_400;convolution_357;Const_41'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_110;onnx_tf_prefix_Add_109, onnx_tf_prefix_Relu_112;Add_50;convolution_400;convolution_357;Const_41
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_152'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_112;Add_50;convolution_400;convolution_357;Const_41, transpose_101/perm, transpose_152
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_16'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_152, Pad_16
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_154'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_16, transpose_1/perm, transpose_154
+Warning: Unsupported TensorFlow Lite semantics for SPLIT 'split_67'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_154, split_67
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3581'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_67, convolution_3581
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3591'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_671, convolution_3591
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3601'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_672, convolution_3601
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3611'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_673, convolution_3611
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3621'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_674, convolution_3621
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3631'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_675, convolution_3631
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3641'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_676, convolution_3641
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3651'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_677, convolution_3651
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3661'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_678, convolution_3661
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3671'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_679, convolution_3671
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3681'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6710, convolution_3681
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3691'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6711, convolution_3691
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3701'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6712, convolution_3701
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3711'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6713, convolution_3711
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3721'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6714, convolution_3721
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3731'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6715, convolution_3731
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3741'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6716, convolution_3741
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3751'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6717, convolution_3751
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3761'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6718, convolution_3761
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3771'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6719, convolution_3771
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3781'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6720, convolution_3781
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3791'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6721, convolution_3791
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3801'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6722, convolution_3801
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3811'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6723, convolution_3811
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3821'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6724, convolution_3821
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3831'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6725, convolution_3831
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3841'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6726, convolution_3841
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3851'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6727, convolution_3851
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3861'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6728, convolution_3861
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3871'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6729, convolution_3871
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3881'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6730, convolution_3881
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3891'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6731, convolution_3891
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3901'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6732, convolution_3901
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3911'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6733, convolution_3911
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3921'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6734, convolution_3921
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3931'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6735, convolution_3931
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3941'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6736, convolution_3941
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3951'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6737, convolution_3951
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3961'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6738, convolution_3961
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3971'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6739, convolution_3971
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3981'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6740, convolution_3981
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'convolution_3992'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: split_6741, convolution_3992
+Warning: Unsupported TensorFlow Lite semantics for CONCATENATION 'concat_51'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: convolution_3591, convolution_3601, concat_51
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_114;Add_51'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: concat_51, Const_39, onnx_tf_prefix_Relu_114;Add_51
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_52;convolution_400;Const_37'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_114;Add_51, Add_52;convolution_400;Const_37
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_117;onnx_tf_prefix_Add_116'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_52;convolution_400;Const_37, onnx_tf_prefix_Relu_110;onnx_tf_prefix_Add_109, onnx_tf_prefix_Relu_117;onnx_tf_prefix_Add_116
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_119;Add_53;convolution_414;convolution_401;Const_35'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_117;onnx_tf_prefix_Add_116, onnx_tf_prefix_Relu_119;Add_53;convolution_414;convolution_401;Const_35
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_BILINEAR 'ResizeBilinear'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_119;Add_53;convolution_414;convolution_401;Const_35, ResizeBilinear
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_55;convolution_414;convolution_403;Const_30'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: ResizeBilinear, Add_55;convolution_414;convolution_403;Const_30
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_132;onnx_tf_prefix_Add_131'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_54;convolution_414;convolution_402;Const_33, Add_55;convolution_414;convolution_403;Const_30, onnx_tf_prefix_Relu_132;onnx_tf_prefix_Add_131
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_BILINEAR 'ResizeBilinear_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_132;onnx_tf_prefix_Add_131, ResizeBilinear_1
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_57;convolution_414;convolution_405;Const_25'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: ResizeBilinear_1, Add_57;convolution_414;convolution_405;Const_25
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_145;onnx_tf_prefix_Add_144'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_56;convolution_414;convolution_404;Const_28, Add_57;convolution_414;convolution_405;Const_25, onnx_tf_prefix_Relu_145;onnx_tf_prefix_Add_144
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_BILINEAR 'ResizeBilinear_2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_145;onnx_tf_prefix_Add_144, ResizeBilinear_2
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_59;convolution_414;convolution_407;Const_20'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: ResizeBilinear_2, Add_59;convolution_414;convolution_407;Const_20
+Warning: Unsupported TensorFlow Lite semantics for ADD 'onnx_tf_prefix_Relu_158;onnx_tf_prefix_Add_157'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_58;convolution_414;convolution_406;Const_23, Add_59;convolution_414;convolution_407;Const_20, onnx_tf_prefix_Relu_158;onnx_tf_prefix_Add_157
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_196;Add_66;convolution_414;Const_3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_158;onnx_tf_prefix_Add_157, onnx_tf_prefix_Relu_196;Add_66;convolution_414;Const_3
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_212'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_196;Add_66;convolution_414;Const_3, transpose_101/perm, transpose_212
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_20'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_212, Pad_20
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_214'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_20, transpose_1/perm, transpose_214
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_67;convolution_415;Const_1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_214, Add_67;convolution_415;Const_1
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_BILINEAR 'ResizeBilinear_6'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_67;convolution_415;Const_1, ResizeBilinear_6
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'PartitionedCall:3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: ResizeBilinear_6, transpose_101/perm, PartitionedCall:3
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_184;Add_64;convolution_414;convolution_412;Const_8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_145;onnx_tf_prefix_Add_144, onnx_tf_prefix_Relu_184;Add_64;convolution_414;convolution_412;Const_8
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_204'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_184;Add_64;convolution_414;convolution_412;Const_8, transpose_101/perm, transpose_204
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_19'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_204, Pad_19
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_206'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_19, transpose_1/perm, transpose_206
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_65;convolution_415;convolution_413;Const_6'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_206, Add_65;convolution_415;convolution_413;Const_6
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_BILINEAR 'ResizeBilinear_5'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_65;convolution_415;convolution_413;Const_6, ResizeBilinear_5
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'PartitionedCall:2'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: ResizeBilinear_5, transpose_101/perm, PartitionedCall:2
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_172;Add_62;convolution_414;convolution_410;Const_13'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_132;onnx_tf_prefix_Add_131, onnx_tf_prefix_Relu_172;Add_62;convolution_414;convolution_410;Const_13
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_196'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_172;Add_62;convolution_414;convolution_410;Const_13, transpose_101/perm, transpose_196
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_18'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_196, Pad_18
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_198'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_18, transpose_1/perm, transpose_198
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_63;convolution_415;convolution_411;Const_11'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_198, Add_63;convolution_415;convolution_411;Const_11
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_BILINEAR 'ResizeBilinear_4'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_63;convolution_415;convolution_411;Const_11, ResizeBilinear_4
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'PartitionedCall:1'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: ResizeBilinear_4, transpose_101/perm, PartitionedCall:1
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'onnx_tf_prefix_Relu_160;Add_60;convolution_414;convolution_408;Const_18'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_119;Add_53;convolution_414;convolution_401;Const_35, onnx_tf_prefix_Relu_160;Add_60;convolution_414;convolution_408;Const_18
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_188'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: onnx_tf_prefix_Relu_160;Add_60;convolution_414;convolution_408;Const_18, transpose_101/perm, transpose_188
+Warning: Unsupported TensorFlow Lite semantics for PAD 'Pad_17'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_188, Pad_17
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'transpose_190'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Pad_17, transpose_1/perm, transpose_190
+Warning: Unsupported TensorFlow Lite semantics for CONV_2D 'Add_61;convolution_415;convolution_409;Const_16'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: transpose_190, Add_61;convolution_415;convolution_409;Const_16
+Warning: Unsupported TensorFlow Lite semantics for RESIZE_BILINEAR 'ResizeBilinear_3'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Add_61;convolution_415;convolution_409;Const_16, ResizeBilinear_3
+Warning: Unsupported TensorFlow Lite semantics for TRANSPOSE 'PartitionedCall:0'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: ResizeBilinear_3, transpose_101/perm, PartitionedCall:0
+
+Network summary for mspn_regnetx_800mf
+Accelerator configuration               Ethos_U55_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                 500 MHz
+
+
+CPU operators = 556 (100.0%)
+NPU operators = 0 (0.0%)
+
+Neural network macs                                 0 MACs/batch
+Network Tops/s                                    nan Tops/s
+
+NPU cycles                                          0 cycles/batch
+SRAM Access cycles                                  0 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                        0 cycles/batch
+
+Batch Inference time                 0.00 ms,     nan inferences/s (batch size 1)
+

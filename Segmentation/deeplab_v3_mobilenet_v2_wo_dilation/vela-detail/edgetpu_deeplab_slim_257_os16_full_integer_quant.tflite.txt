@@ -1,0 +1,77 @@
+Warning: Unsupported TensorFlow Lite semantics for ARG_MAX 'ArgMax'. Placing on CPU instead
+ - Scalar Input tensors are only valid for op type: ADD, EXPAND_DIMS, MAXIMUM, MEAN, MINIMUM, MUL, QUANTIZE, SPLIT, SPLIT_V, SUB
+   Op has scalar input tensor(s): ArgMax/dimension
+Warning: RESIZE_BILINEAR 'ResizeBilinear_2' is not supported on the NPU. Placing on CPU instead
+ - The width and height of the IFM and OFM must match one of the following criteria:
+        IFM W and H must both be 1
+        IFM must match OFM
+        W and H scaling must be equal and OFM W-1 and H-1 must be 2x/4x/8x IFM W-1 and H-1, if align_corners is True
+        W and H scaling must be equal and OFM W and H must be 2x/4x/8x IFM W and H, if align_corners is False
+   Op has ifm_shape=[1, 17, 17, 19], ofm_shape=[1, 257, 257, 19] and align_corners=True
+Info: BATCH_TO_SPACE_ND 'MobilenetEdgeTPU/expanded_conv_21/depthwise/depthwise/BatchToSpaceND' is a CPU only op
+Warning: DEPTHWISE_CONV_2D 'MobilenetEdgeTPU/expanded_conv_21/depthwise/depthwise' is not supported on the NPU. Placing on CPU instead
+ - IFM Tensor batch size must be 1
+   Tensor 'MobilenetEdgeTPU/expanded_conv_21/depthwise/depthwise/SpaceToBatchND' has batch size: 4
+Info: SPACE_TO_BATCH_ND 'MobilenetEdgeTPU/expanded_conv_21/depthwise/depthwise/SpaceToBatchND' is a CPU only op
+Info: BATCH_TO_SPACE_ND 'MobilenetEdgeTPU/expanded_conv_20/depthwise/depthwise/BatchToSpaceND' is a CPU only op
+Warning: DEPTHWISE_CONV_2D 'MobilenetEdgeTPU/expanded_conv_20/depthwise/depthwise' is not supported on the NPU. Placing on CPU instead
+ - IFM Tensor batch size must be 1
+   Tensor 'MobilenetEdgeTPU/expanded_conv_20/depthwise/depthwise/SpaceToBatchND' has batch size: 4
+Info: SPACE_TO_BATCH_ND 'MobilenetEdgeTPU/expanded_conv_20/depthwise/depthwise/SpaceToBatchND' is a CPU only op
+Info: BATCH_TO_SPACE_ND 'MobilenetEdgeTPU/expanded_conv_19/depthwise/depthwise/BatchToSpaceND' is a CPU only op
+Warning: DEPTHWISE_CONV_2D 'MobilenetEdgeTPU/expanded_conv_19/depthwise/depthwise' is not supported on the NPU. Placing on CPU instead
+ - IFM Tensor batch size must be 1
+   Tensor 'MobilenetEdgeTPU/expanded_conv_19/depthwise/depthwise/SpaceToBatchND' has batch size: 4
+Info: SPACE_TO_BATCH_ND 'MobilenetEdgeTPU/expanded_conv_19/depthwise/depthwise/SpaceToBatchND' is a CPU only op
+Info: BATCH_TO_SPACE_ND 'MobilenetEdgeTPU/expanded_conv_18/depthwise/depthwise/BatchToSpaceND' is a CPU only op
+Warning: DEPTHWISE_CONV_2D 'MobilenetEdgeTPU/expanded_conv_18/depthwise/depthwise' is not supported on the NPU. Placing on CPU instead
+ - IFM Tensor batch size must be 1
+   Tensor 'MobilenetEdgeTPU/expanded_conv_18/depthwise/depthwise/SpaceToBatchND' has batch size: 4
+Info: SPACE_TO_BATCH_ND 'MobilenetEdgeTPU/expanded_conv_18/depthwise/depthwise/SpaceToBatchND' is a CPU only op
+Warning: ArgMax operation is unknown or unsupported, placing on CPU
+Warning: ResizeBilinear operation is unknown or unsupported, placing on CPU
+Warning: DepthwiseConv2DBias operation is unknown or unsupported, placing on CPU
+Warning: DepthwiseConv2DBias operation is unknown or unsupported, placing on CPU
+Warning: DepthwiseConv2DBias operation is unknown or unsupported, placing on CPU
+Warning: DepthwiseConv2DBias operation is unknown or unsupported, placing on CPU
+
+Network summary for edgetpu_deeplab_slim_257_os16_full_integer_quant
+Accelerator configuration               Ethos_U65_256
+System configuration                 internal-default
+Memory mode                          internal-default
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                378.23 KiB
+Total DRAM used                               4017.97 KiB
+
+CPU operators = 6 (6.1%)
+NPU operators = 93 (93.9%)
+
+Average SRAM bandwidth                           1.19 GB/s
+Input   SRAM bandwidth                          18.68 MB/batch
+Weight  SRAM bandwidth                          21.47 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                          40.28 MB/batch
+Total   SRAM bandwidth            per input     40.28 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.99 GB/s
+Input   DRAM bandwidth                          16.25 MB/batch
+Weight  DRAM bandwidth                           2.13 MB/batch
+Output  DRAM bandwidth                          15.36 MB/batch
+Total   DRAM bandwidth                          33.74 MB/batch
+Total   DRAM bandwidth            per input     33.74 MB/inference (batch size 1)
+
+Neural network macs                        1106933643 MACs/batch
+Network Tops/s                                   0.07 Tops/s
+
+NPU cycles                                   13551774 cycles/batch
+SRAM Access cycles                            1848621 cycles/batch
+DRAM Access cycles                           27967492 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 33916560 cycles/batch
+
+Batch Inference time                33.92 ms,   29.48 inferences/s (batch size 1)
+
