@@ -27,6 +27,19 @@ These modules have undergone quantization processing and are suitable for the I.
   * `Image Denoising`_
   * `Hand Landmark detection`_
 
+.
+
+* A large number of benchmark verification methods are employed, and the results are outputted as a CSV file.
+
+(1) Download All Quanted Model using on NXP i.MX8M Plus , or  Download All Quanted Vela Model using on NXP i.MX93.
+
+(2) Download ATU-ML Tool Layer 
+
+(3) Run "  python3 atuml_tool.py --benchmark_loop_generate_file /run/media/VailDataBase-sda1/ATU_Model_Zoo --csv_status 'w+' --delegate 'vx'  " 
+
+(3) Run "  python3 atuml_tool.py --benchmark_loop_generate_file /run/media/VailDataBase-sda1/ATU_Model_Zoo --csv_status 'w+' --delegate 'ethosu'  " 
+
+=========================
 
 .. _Classification:
 
